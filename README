@@ -1,5 +1,5 @@
 Input:
-    [{Mã lớp, Giảng viên, Số t}iết]
+    [{Mã lớp, Giảng viên, Số tiết]
     [{Phòng học, Buổi, Tag}]
 Output:
     [{Mã lớp, Giảng viên, Phòng, Buổi, Số tiết}]
