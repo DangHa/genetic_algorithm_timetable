@@ -1,0 +1,13 @@
+Input:
+    [{Mã lớp, Giảng viên, Số t}iết]
+    [{Phòng học, Buổi, Tag}]
+Output:
+    [{Mã lớp, Giảng viên, Phòng, Buổi, Số tiết}]
+
+# Một tuần sẽ có 12 buổi học (từ thứ 2 đến thứ 6)
+# Các tag cho 1 buổi
+    -, 0: 6 tiết đều chưa bị xếp
+    -, 1: Đã bị xếp 4 tiết đầu
+    -, 2: Đã bị xếp 3 tiết đầu
+    -, 3: Đã bị xếp 2 tiết đầu
+    -. 4: Đã full cả buổi (đã xếp 5, 6 tiết vào buổi đó)
