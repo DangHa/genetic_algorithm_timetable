@@ -1,3 +1,4 @@
+# read the file inputML.txt
 def read_ML(fileDir):
     # open the file and set it can be read
     f = open(fileDir, "r")
@@ -14,6 +15,7 @@ def read_ML(fileDir):
     # close file
     f.close()
 
+    result = sort_ML(result)
     return result
 
 # input: "Malop GiangVien Sotiet" - String
@@ -35,6 +37,18 @@ def data_analyst(line):
 
     return result
 
+# sort the number of Sotiet
+def sort_ML(inputML):
+    for i in range(len(inputML)-1):
+        for j in range(i+1, len(inputML)):
+            if int(inputML[j][2])>int(inputML[i][2]):
+                temp = inputML[j]
+                inputML[j] = inputML[i]
+                inputML[i] = temp
+
+    return inputML
+
+# read the file inputRoom.txt
 def readRoom(fileDir):
     # open the file and set it can be read
     f = open(fileDir, "r")
