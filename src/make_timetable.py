@@ -3,6 +3,7 @@
 #     [[Phòng học, Buổi, SoTietConLai]]
 # Output:
 #     [[Mã lớp, Giảng viên, Phòng, Buổi, Số tiết]]
+#     [] if cant make
 
 def make_new_timetable(ML, Room):
     result = []
@@ -14,6 +15,10 @@ def make_new_timetable(ML, Room):
                 result.append(MLHaveRoom)
                 Room[j][2] -= int(ML[i][2])
                 break
+
+            # cant make timetable with this ML and Room
+            if Room[j][2] <= int(ML[i][2]) and j == len(Room)-1:
+                return []
 
     return result
 
