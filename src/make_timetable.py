@@ -1,0 +1,19 @@
+# Input:
+#     [[Mã lớp, Giảng viên, Số tiết]]
+#     [[Phòng học, Buổi, SoTietConLai]]
+# Output:
+#     [[Mã lớp, Giảng viên, Phòng, Buổi, Số tiết]]
+
+def make_new_timetable(ML, Room):
+    result = []
+
+    for i in range(len(ML)):
+        for j in range(len(Room)):
+            if Room[j][2] >= int(ML[i][2]):
+                MLHaveRoom = ML[i] + Room[j][:2]
+                result.append(MLHaveRoom)
+                Room[j][2] -= int(ML[i][2])
+                break
+
+    return result
+

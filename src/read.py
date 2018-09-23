@@ -19,21 +19,21 @@ def read_ML(fileDir):
     return result
 
 # input: "Malop GiangVien Sotiet" - String
-# output: ("Malop", "GiangVien", "Sotiet") - Tuple
+# output: ["Malop", "GiangVien", "Sotiet"] - Tuple
 def data_analyst(line):
-    result = ()
+    result = []
 
     point = 0
     for i in range(len(line)):
         if line[i] == " " and line[i+1].isnumeric() == False and point == 0:
-            result += (line[point:i], ) # MaLop
+            result.append(line[point:i]) # MaLop
             point = i+1
         elif line[i] == " " and line[i+1].isnumeric() == True:
-            result += (line[point:i], ) # GiangVien
+            result.append(line[point:i]) # GiangVien
             point = i+1
             break
 
-    result += (line[point:point+1],) # SoTiet
+    result.append(line[point:point+1]) # SoTiet
 
     return result
 
@@ -60,7 +60,7 @@ def readRoom(fileDir):
         contents = f.readlines()
         for line in contents:
             for i in range(11):
-                room = (line[:len(line) - 2], i+1, 0)
+                room = [line[:len(line) - 2], i+1, 6]
                 result.append(room)
 
     # close file
