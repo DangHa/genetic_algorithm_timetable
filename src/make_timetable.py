@@ -4,6 +4,18 @@
 # Output:
 #     [[Mã lớp, Giảng viên, Phòng, Buổi, Số tiết]]
 #     [] if cant make
+import random
+
+def create_temporary_timetable(ML, Room, numberOfTimetable):
+    result = []
+
+    for i in range(numberOfTimetable):
+        random.shuffle(Room)
+        newTempTimetable = make_new_timetable(ML, Room)
+        result.append(newTempTimetable)
+
+    return result
+
 
 def make_new_timetable(ML, Room):
     result = []

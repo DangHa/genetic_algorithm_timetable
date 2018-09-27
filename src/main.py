@@ -1,5 +1,5 @@
 # import other files
-from src import read, make_timetable
+from src import read, make_timetable, write
 
 
 def main():
@@ -10,12 +10,15 @@ def main():
     print(inputML)
     print(inputRoom)
 
-    # make temporary timetable for running generation algorithm
-    temp_timetable = make_timetable.make_new_timetable(inputML, inputRoom)
+    # create temporary timetable for running generation algorithm
+    numberOfTimetable = 10
+    temp_timetable = make_timetable.create_temporary_timetable(inputML, inputRoom, numberOfTimetable)
 
     print(temp_timetable)
     # run GA
     # writing final timetable into file
+
+    write.write_file(temp_timetable)
 
 
 if __name__ == "__main__":

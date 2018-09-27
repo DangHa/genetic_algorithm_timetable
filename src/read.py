@@ -37,7 +37,7 @@ def data_analyst(line):
 
     return result
 
-# sort the number of Sotiet
+# sort the number of Sotiet of inputML
 def sort_ML(inputML):
     for i in range(len(inputML)-1):
         for j in range(i+1, len(inputML)):

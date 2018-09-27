@@ -1,10 +1,83 @@
-This is line
-This is line
-This is line
-This is line
-This is line
-This is line
-This is line
-This is line
-This is line
-This is line
+
+ -------------------- 
+102656 Pham Thi Hang 4 B1-7 11
+676165 Tran Viet Trung 3 B1-7 10
+104442 Nguyen Hong Phuong 3 B1-7 10
+676459 Nguyen Ba Ngoc 3 B1-7 6
+104440 Pham Van Hai 2 B1-7 11
+104472 Than Quang Khoat 2 B1-7 6
+104439 Tran Dinh Khang 2 D5-10 10
+
+ -------------------- 
+102656 Pham Thi Hang 4 B1-7 5
+676165 Tran Viet Trung 3 D8-30 6
+104442 Nguyen Hong Phuong 3 D8-30 6
+676459 Nguyen Ba Ngoc 3 D8-30 9
+104440 Pham Van Hai 2 B1-7 5
+104472 Than Quang Khoat 2 D8-30 9
+104439 Tran Dinh Khang 2 D5-10 4
+
+ -------------------- 
+102656 Pham Thi Hang 4 B1-7 2
+676165 Tran Viet Trung 3 B1-7 1
+104442 Nguyen Hong Phuong 3 B1-7 1
+676459 Nguyen Ba Ngoc 3 B1-7 3
+104440 Pham Van Hai 2 B1-7 2
+104472 Than Quang Khoat 2 B1-7 3
+104439 Tran Dinh Khang 2 B1-7 9
+
+ -------------------- 
+102656 Pham Thi Hang 4 B1-7 7
+676165 Tran Viet Trung 3 D5-10 9
+104442 Nguyen Hong Phuong 3 D5-10 9
+676459 Nguyen Ba Ngoc 3 D8-30 10
+104440 Pham Van Hai 2 B1-7 7
+104472 Than Quang Khoat 2 D8-30 10
+104439 Tran Dinh Khang 2 D5-10 5
+
+ -------------------- 
+102656 Pham Thi Hang 4 D5-10 10
+676165 Tran Viet Trung 3 B1-7 9
+104442 Nguyen Hong Phuong 3 D8-30 3
+676459 Nguyen Ba Ngoc 3 D8-30 3
+104440 Pham Van Hai 2 D8-30 11
+104472 Than Quang Khoat 2 D8-30 11
+104439 Tran Dinh Khang 2 D8-30 11
+
+ -------------------- 
+102656 Pham Thi Hang 4 D8-30 4
+676165 Tran Viet Trung 3 D8-30 8
+104442 Nguyen Hong Phuong 3 D8-30 8
+676459 Nguyen Ba Ngoc 3 B1-7 4
+104440 Pham Van Hai 2 D8-30 4
+104472 Than Quang Khoat 2 B1-7 4
+104439 Tran Dinh Khang 2 D5-10 7
+
+ -------------------- 
+102656 Pham Thi Hang 4 D5-10 11
+676165 Tran Viet Trung 3 D5-10 4
+104442 Nguyen Hong Phuong 3 D5-10 2
+676459 Nguyen Ba Ngoc 3 D5-10 2
+104440 Pham Van Hai 2 D5-10 11
+104472 Than Quang Khoat 2 D8-30 1
+104439 Tran Dinh Khang 2 D8-30 1
+
+ -------------------- 
+102656 Pham Thi Hang 4 D5-10 8
+676165 Tran Viet Trung 3 D8-30 5
+104442 Nguyen Hong Phuong 3 D8-30 5
+676459 Nguyen Ba Ngoc 3 D8-30 7
+104440 Pham Van Hai 2 D5-10 8
+104472 Than Quang Khoat 2 D8-30 7
+104439 Tran Dinh Khang 2 D5-10 7
+
+ -------------------- 
+102656 Pham Thi Hang 4 D5-10 6
+676165 Tran Viet Trung 3 D5-10 5
+104442 Nguyen Hong Phuong 3 D5-10 3
+676459 Nguyen Ba Ngoc 3 D5-10 3
+104440 Pham Van Hai 2 D5-10 7
+104472 Than Quang Khoat 2 D8-30 1
+104439 Tran Dinh Khang 2 D5-10 6
+
+ -------------------- 
