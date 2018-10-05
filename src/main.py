@@ -1,8 +1,8 @@
 # import other files
-from src import read, make_timetable, write
+import read, write, generic_algorithm
 
 
-def main(inputMLFile, inputRoomFile):
+def main(inputMLFile, inputRoomFile, outputFile):
     # get the data consisting of Malop and Room
     inputML = read.read_ML(inputMLFile)
     inputRoom = read.readRoom(inputRoomFile)
@@ -10,16 +10,11 @@ def main(inputMLFile, inputRoomFile):
     print(inputML)
     print(inputRoom)
 
-    # create temporary timetable for running generation algorithm
-    numberOfTimetable = 10
-    temp_timetable = make_timetable.create_temporary_timetable(inputML, inputRoom, numberOfTimetable)
-
-    print(temp_timetable)
     # run GA
+    result_timetable = generic_algorithm.generic_algorithm(inputML, inputRoom)
+
     # writing final timetable into file
-
-    write.write_file(temp_timetable)
-
+    write.write_file(result_timetable, outputFile)
 
 if __name__ == "__main__":
-    main("file/inputML.txt", "file/inputRoom.txt")
+    main("file/inputML.txt", "file/inputRoom.txt", "file/output.txt")

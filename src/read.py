@@ -67,12 +67,3 @@ def readRoom(fileDir):
     f.close()
 
     return result
-
-
-# test for the read_file module
-def main(fileDir) :
-    return read_ML(fileDir)
-
-if __name__ == "__main__":
-    result = main("file/inputML.txt")
-    print(result)
