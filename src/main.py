@@ -2,10 +2,10 @@
 from src import read, make_timetable, write
 
 
-def main():
+def main(inputMLFile, inputRoomFile):
     # get the data consisting of Malop and Room
-    inputML = read.read_ML("file/inputML.txt")
-    inputRoom = read.readRoom("file/inputRoom.txt")
+    inputML = read.read_ML(inputMLFile)
+    inputRoom = read.readRoom(inputRoomFile)
 
     print(inputML)
     print(inputRoom)
@@ -22,4 +22,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main("file/inputML.txt", "file/inputRoom.txt")

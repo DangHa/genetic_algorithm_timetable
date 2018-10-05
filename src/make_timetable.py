@@ -2,7 +2,7 @@
 #     [[Mã lớp, Giảng viên, Số tiết]]
 #     [[Phòng học, Buổi, SoTietConLai]]
 # Output:
-#     [[Mã lớp, Giảng viên, Phòng, Buổi, Số tiết]]
+#     [[Mã lớp, Giảng viên, Buổi, Phòng, Số tiết]]
 #     [] if cant make
 import random
 
