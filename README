@@ -1,17 +1,14 @@
+* Description
+
 Input:
     [[Mã lớp, Giảng viên, Số tiết]]
     [[Phòng học, Buổi, SoTietConLai]]
 Output:
     [[Mã lớp, Giảng viên, Phòng, Buổi, Số tiết]]
 
-# Một tuần sẽ có 12 buổi học (từ thứ 2 đến thứ 6)
-# Các tag cho 1 buổi
-    -, 6: 6 tiết đều chưa bị xếp
-    -, 2: Đã bị xếp 4 tiết đầu
-    -, 3: Đã bị xếp 3 tiết đầu
-    -, 4: Đã bị xếp 2 tiết đầu
-    -, 1: Đã bị xếp 5 tiết đầu
-    -. 0: Đã full cả buổi (đã xếp 5, 6 tiết vào buổi đó)
+# Each week is divided into 12 blocks (from monday to friday)
+# Each block is divided into 6 periods (both in the morning and afternoon)
+
 
 * How to run 
     python3 src/main.py
