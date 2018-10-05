@@ -7,8 +7,8 @@ def main(inputMLFile, inputRoomFile, outputFile):
     inputML = read.read_ML(inputMLFile)
     inputRoom = read.readRoom(inputRoomFile)
 
-    print(inputML)
-    print(inputRoom)
+    # print(inputML)
+    # print(inputRoom)
 
     # run GA
     result_timetable = generic_algorithm.generic_algorithm(inputML, inputRoom)
