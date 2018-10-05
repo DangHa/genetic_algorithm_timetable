@@ -1,37 +1,62 @@
 import random, make_timetable
 
-def generic_algorithm (inputML, inputRoom):
+def generic_algorithm (inputML, inputRoom, NumberOfLoop):
 
-    # ---  Initialization  ---
-    # This routine creates a population of N timetable
+    result = []
+
+    # ---  Initialization ---
+    # Createing a the N init element timetable
     N = 10
     temp_timetables = initialization(inputML, inputRoom, N)
-    # print(temp_timetables)
 
-    fit = fitness(temp_timetables[1])
-    print(fit)
+    # Begining the evolution
+    for i in range(0, NumberOfLoop):
+        # --- Fitness ---
+        fit = fitness(temp_timetables)
+        print(fit)
+        for j in range(len(fit)):
+            if fit[j] == 0:
+                result.append(temp_timetables[j])
+        
+        if result != []:
+            break
+
+        # --- Selection ---
+        selection()
+
+        # --- Crossover ---
+        crossover()
+
+        # --- Mutation ---
+        mutation()
 
 
-
-    return temp_timetables
+    return result
 
 
 def crossover():
-    print("crossover")
+    print("-- Crossover --")
 
-def selecting_table():
-    print("selection")
+def selection():
+    print("-- Selection --")
 
 def mutation():
-    print("mutation")
+    print("-- Mutation --")
 
 # return array that consist the fit of each temporary timetable
 # the point of temporary timetable is the higher, the fit of one is the lower
-def fitness(temp_timetable):
-    print("fitness")
+def fitness(temp_timetables):
+    print("-- Fitness --")
     
     result = []
 
+    for i in range(len(temp_timetables)):
+        TheFit = the_fit_of_one(temp_timetables[i])
+        result.append(TheFit)    
+
+    return result
+
+def the_fit_of_one(temp_timetable):
     for i in range(0, len(temp_timetable)-1):
         for j in range(i+1, len(temp_timetable)):
             temp1 = temp_timetable[i]
@@ -41,24 +66,24 @@ def fitness(temp_timetable):
                 # check whether have same period
                 if int(temp1[5]) < int(temp2[5]):
                     if int(temp1[5])+int(temp1[2]) > int(temp2[5]) and int(temp1[5])+int(temp1[2]) < int(temp2[5]) + int(temp2[2]):
-                        print(i)
-                        print(j)
-                        print(temp1)
-                        print(temp2)
-                        print(" ----- ")
+                        temp1[6] = False
+                        temp2[6] = False
                 else:
                     if int(temp2[5])+int(temp2[2]) > int(temp1[5]) and int(temp2[5])+int(temp2[2]) < int(temp1[5]) + int(temp1[2]):
-                        print(i)
-                        print(j)
-                        print(temp1)
-                        print(temp2)
-                        print(" ----- ")
+                        temp1[6] = False
+                        temp2[6] = False
 
-    return result
+    TheFit = 0
+    for i in range(0, len(temp_timetable)):
+        if temp_timetable[i][6] == False:
+            TheFit += 1
+
+    return TheFit
+
 
 # Initialization function
 def initialization(ML, Room, numberOfInit):
-    print("initialization")
+    print("-- Initialization --")
 
     result = []
 
