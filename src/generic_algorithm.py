@@ -22,23 +22,59 @@ def generic_algorithm (inputML, inputRoom, NumberOfLoop):
             break
 
         # --- Selection ---
-        selection()
+        Remover = 2
+        selection(fit, temp_timetables, Remover)
+        print(fit)
 
         # --- Crossover ---
-        crossover()
+        crossover(fit, temp_timetables)
 
         # --- Mutation ---
         mutation()
 
 
-    return result
+    return temp_timetables
 
 
-def crossover():
+def selection(fit, temp_timetables, Remover):
+    print("-- Selection --")
+
+    for i in range(0, Remover):
+        lessFit = 0 
+        for j in range(1, len(fit)):
+            if fit[j] > fit[lessFit]:
+                lessFit = j
+        
+        del fit[lessFit]
+        del temp_timetables[lessFit]
+
+# select 2 best fit 
+# create (2) new crossovers by each itself and create 1 new crossover by both
+def crossover(fit, temp_timetables):
     print("-- Crossover --")
 
-def selection():
-    print("-- Selection --")
+    # 2 best fit
+    selectedTimeTable = [] 
+
+    bestFit1 = 1
+    for j in range(2, len(fit)):
+        if fit[j] < fit[bestFit1]:
+            bestFit1 = j
+    selectedTimeTable.append(temp_timetables[bestFit1])
+
+    bestFit2 = 0
+    for j in range(1, len(fit)):
+        if fit[j] < fit[bestFit2] and j != bestFit1:
+            bestFit2 = j
+    selectedTimeTable.append(temp_timetables[bestFit2])
+
+    # create (2) new crossovers by each itself
+    for i in range(0, len(selectedTimeTable)):
+        improveTimeTable = make_timetable.remake_timetable(selectedTimeTable[i])
+        temp_timetables.append(improveTimeTable)
+
+    # create 1 new crossover by both
+
 
 def mutation():
     print("-- Mutation --")
@@ -52,7 +88,7 @@ def fitness(temp_timetables):
 
     for i in range(len(temp_timetables)):
         TheFit = the_fit_of_one(temp_timetables[i])
-        result.append(TheFit)    
+        result.append(TheFit)
 
     return result
 

@@ -33,7 +33,7 @@ def data_analyst(line):
             point = i+1
             break
 
-    result.append(line[point:point+1]) # SoTiet
+    result.append(int(line[point:point+1])) # SoTiet
 
     return result
 
