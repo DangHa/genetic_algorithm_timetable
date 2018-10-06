@@ -12,52 +12,101 @@ import random
 def make_new_timetable(ML, Room):
     result = []
 
+    tempRoom = Room[:]
     for i in range(len(ML)):
-        for j in range(len(Room)):
-            if Room[j][2] >= ML[i][2]:
-                MLHaveRoom = ML[i] + Room[j][:2] + [7-Room[j][2], True]
+        for j in range(len(tempRoom)):
+
+            if tempRoom[j][2] >= ML[i][2]:
+                MLHaveRoom = ML[i] + tempRoom[j][:2] + [7-tempRoom[j][2], True]
                 result.append(MLHaveRoom)
-                Room[j][2] -= ML[i][2]
+                tempRoom[j][2] -= ML[i][2]
                 break
 
             # cant make timetable with this ML and Room
-            if Room[j][2] <= ML[i][2] and j == len(Room)-1:
-                revert_Room(Room)
+            if tempRoom[j][2] <= ML[i][2] and j == len(tempRoom)-1:
                 return []
 
-    revert_Room(Room)
     return result
 
-# revert the So_Tiet_Con_lai of Room
-def revert_Room(Room):
-    for i in range(len(Room)):
-        Room[i][2] = 6
-
-def remake_timetable(selectedTimeTable, inputRoom):
+def remake_timetable(selectedTimeTable):
     result = selectedTimeTable[:]
 
+    # everyone's schedule
+    schedule = scheduleEveryOne(selectedTimeTable)
+
+    # get a class have the false TheFit
     falseML = []
-    falseRoom = []
-    
+    positionOfFasleML = 0
     for i in range(len(selectedTimeTable)):
         if selectedTimeTable[i][6] == False:
-            falseML.append(selectedTimeTable[i][:3])
-            falseRoom.append(selectedTimeTable[i][3:6])
+            falseML = selectedTimeTable[i][:]
+            positionOfFasleML = i
+            
+    # change with other one with schdule can add the falseML
+    for i in range(len(schedule)):
+        if falseML[1] != schedule[i][0]:
+            choose = checkSchedule(falseML, schedule[i])
 
-    # suffle room to make a new class
-    random.shuffle(falseRoom)
-    falseClass = []
-    for i in range(len(falseML)):
-        falseClass.append(falseML[i] + falseRoom[i] + [True])
+            if choose == True:
+                # finding schedule of one have faleML
+                scheOfFalseML = []
+                for i in range(len(schedule)):
+                    if schedule[i][0] == falseML[1]:
+                        scheOfFalseML = schedule[i]
 
-    allRoom = inputRoom[:]
-    # we have to find a new period that havent got any class 
-    # and this period must be diffence with the old period of this ML
+                # finding a ML of this selected person can change with falseML
+                for j in range(len(result)):
+                    if result[j][1] == schedule[i][0] and checkSchedule(result[j], scheOfFalseML) == True and result[j][2] == falseML[2]:
+                        # change time and room
+                        temp = result[j]
+                        result[j] = temp[:3] + result[positionOfFasleML][3:]
+                        result[positionOfFasleML] = result[positionOfFasleML][:3] + temp[3:]
+                        break
 
-    # add fixed class into the old timetable
-    for i in range(len(result)):
-        for j in range(len(falseClass)):
-            if result[i][0] == falseClass[j][0]:
-                result[i] = falseClass[j]
+    return result
 
+def checkSchedule(ML, schedule):
+    choose = True
+
+    for j in range(1, len(schedule)):
+        # check whether have same block
+        if schedule[j][1] == ML[4]:
+            # check whether have same period
+            if schedule[j][2] < ML[5]:
+                if schedule[j][2]+schedule[j][3] > ML[5] and schedule[j][2]+schedule[j][3] < ML[5] + ML[2]:
+                    choose = False
+                    break
+            else:
+                if  ML[5] + ML[2] > schedule[j][2] and ML[5] + ML[2] < schedule[j][2]+schedule[j][3]:
+                    choose = False
+                    break
+    
+    return choose
+
+# schedule of one: [name, [ML, Buoi, TietBatDau, SoTiet], [], [], ...]
+# output: [schedule of every one]
+def scheduleEveryOne(selectedTimeTable):
+    result = []
+
+    temp = selectedTimeTable[:]
+
+    while len(temp) != 0:
+        scheduleOfOne = [temp[0][1]]
+
+        remove = []
+        for i in range(len(temp)):
+            if temp[i][1] == scheduleOfOne[0]:
+
+                Class = [temp[i][0], temp[i][4], temp[i][5], temp[i][2]]
+                scheduleOfOne.append(Class)
+                remove.append(temp[i][0])
+
+        for i in range(len(remove)):
+            for j in range(len(temp)):
+                if temp[j][0] == remove[i]:
+                    del temp[j]
+                    break
+        
+        result.append(scheduleOfOne)
+    
     return result

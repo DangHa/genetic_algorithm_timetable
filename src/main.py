@@ -11,7 +11,7 @@ def main(inputMLFile, inputRoomFile, outputFile):
     # print(inputRoom)
 
     # run GA
-    NumberOfLoop = 2
+    NumberOfLoop = 3
     result_timetable = generic_algorithm.generic_algorithm(inputML, inputRoom, NumberOfLoop)
 
     # writing final timetable into file

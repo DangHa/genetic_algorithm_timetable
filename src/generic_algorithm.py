@@ -11,12 +11,14 @@ def generic_algorithm (inputML, inputRoom, NumberOfLoop):
 
     # Begining the evolution
     for i in range(0, NumberOfLoop):
+
         # --- Fitness ---
         fit = fitness(temp_timetables)
         print(fit)
         for j in range(len(fit)):
-            if fit[j] == 0:
+            if fit[j] <= 1:
                 result.append(temp_timetables[j])
+                
         
         if result != []:
             break
@@ -27,13 +29,13 @@ def generic_algorithm (inputML, inputRoom, NumberOfLoop):
         print(fit)
 
         # --- Crossover ---
-        crossover(fit, temp_timetables, inputRoom)
+        crossover(fit, temp_timetables)
 
         # --- Mutation ---
         mutation()
 
 
-    return temp_timetables
+    return result
 
 
 def selection(fit, temp_timetables, Remover):
@@ -50,7 +52,7 @@ def selection(fit, temp_timetables, Remover):
 
 # select 2 best fit 
 # create (2) new crossovers by each itself and create 1 new crossover by both
-def crossover(fit, temp_timetables, inputRoom):
+def crossover(fit, temp_timetables):
     print("-- Crossover --")
 
     # 2 best fit
@@ -70,9 +72,9 @@ def crossover(fit, temp_timetables, inputRoom):
 
     # create (2) new crossovers by each itself
     for i in range(0, len(selectedTimeTable)):
-        improveTimeTable = make_timetable.remake_timetable(selectedTimeTable[i], inputRoom)
+        improveTimeTable = make_timetable.remake_timetable(selectedTimeTable[i])
         temp_timetables.append(improveTimeTable)
-
+ 
     # create 1 new crossover by both
 
 
@@ -86,28 +88,36 @@ def fitness(temp_timetables):
     
     result = []
 
+    # set TheFit of all is True
+    # CÓ VẤN ĐỀ Ở ĐÂY
     for i in range(len(temp_timetables)):
-        TheFit = the_fit_of_one(temp_timetables[i])
+        for j in range(0, len(temp_timetables[i])):
+            temp_timetables[i][j][6] = True
+    # lúc chạy hàm dưới vẫn có thằng chưa được đổi về là True
+
+    # evaluate TheFit
+    for i in range(len(temp_timetables)):
+        TheFit = the_fit_of_one(temp_timetables[i], i)
         result.append(TheFit)
 
     return result
 
-def the_fit_of_one(temp_timetable):
+def the_fit_of_one(temp_timetable, check):
     for i in range(0, len(temp_timetable)-1):
         for j in range(i+1, len(temp_timetable)):
             temp1 = temp_timetable[i]
             temp2 = temp_timetable[j]
             # check whether have same teacher and block
-            if temp1[1] == temp2[1] and int(temp1[4]) == int(temp2[4]):
+            if temp1[1] == temp2[1] and temp1[4] == temp2[4]:
                 # check whether have same period
-                if int(temp1[5]) < int(temp2[5]):
-                    if int(temp1[5])+int(temp1[2]) > int(temp2[5]) and int(temp1[5])+int(temp1[2]) < int(temp2[5]) + int(temp2[2]):
-                        temp1[6] = False
-                        temp2[6] = False
+                if temp1[5] < temp2[5]:
+                    if temp1[5]+temp1[2] > temp2[5] and temp1[5]+temp1[2] < temp2[5] + temp2[2]:
+                        temp_timetable[i][6] = False
+                        temp_timetable[j][6] = False
                 else:
-                    if int(temp2[5])+int(temp2[2]) > int(temp1[5]) and int(temp2[5])+int(temp2[2]) < int(temp1[5]) + int(temp1[2]):
-                        temp1[6] = False
-                        temp2[6] = False
+                    if temp2[5]+temp2[2] > temp1[5] and temp2[5]+temp2[2] < temp1[5] + temp1[2]:
+                        temp_timetable[i][6] = False
+                        temp_timetable[j][6] = False
 
     TheFit = 0
     for i in range(0, len(temp_timetable)):
