@@ -33,22 +33,26 @@ def revert_Room(Room):
     for i in range(len(Room)):
         Room[i][2] = 6
 
-def remake_timetable(tempTimetable):
-    result = tempTimetable[:]
+def remake_timetable(selectedTimeTable, inputRoom):
+    result = selectedTimeTable[:]
 
     falseML = []
     falseRoom = []
     
-    for i in range(len(tempTimetable)):
-        if tempTimetable[i][6] == False:
-            falseML.append(tempTimetable[i][:3])
-            falseRoom.append(tempTimetable[i][3:6])
+    for i in range(len(selectedTimeTable)):
+        if selectedTimeTable[i][6] == False:
+            falseML.append(selectedTimeTable[i][:3])
+            falseRoom.append(selectedTimeTable[i][3:6])
 
     # suffle room to make a new class
     random.shuffle(falseRoom)
     falseClass = []
     for i in range(len(falseML)):
         falseClass.append(falseML[i] + falseRoom[i] + [True])
+
+    allRoom = inputRoom[:]
+    # we have to find a new period that havent got any class 
+    # and this period must be diffence with the old period of this ML
 
     # add fixed class into the old timetable
     for i in range(len(result)):

@@ -27,7 +27,7 @@ def generic_algorithm (inputML, inputRoom, NumberOfLoop):
         print(fit)
 
         # --- Crossover ---
-        crossover(fit, temp_timetables)
+        crossover(fit, temp_timetables, inputRoom)
 
         # --- Mutation ---
         mutation()
@@ -50,7 +50,7 @@ def selection(fit, temp_timetables, Remover):
 
 # select 2 best fit 
 # create (2) new crossovers by each itself and create 1 new crossover by both
-def crossover(fit, temp_timetables):
+def crossover(fit, temp_timetables, inputRoom):
     print("-- Crossover --")
 
     # 2 best fit
@@ -70,7 +70,7 @@ def crossover(fit, temp_timetables):
 
     # create (2) new crossovers by each itself
     for i in range(0, len(selectedTimeTable)):
-        improveTimeTable = make_timetable.remake_timetable(selectedTimeTable[i])
+        improveTimeTable = make_timetable.remake_timetable(selectedTimeTable[i], inputRoom)
         temp_timetables.append(improveTimeTable)
 
     # create 1 new crossover by both
