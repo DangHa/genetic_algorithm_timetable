@@ -1,9 +1,9 @@
-import random, make_timetable
+import random, math
+import make_timetable
 
 def generic_algorithm (inputML, inputRoom, NumberOfLoop):
-
     result = []
-
+    
     # ---  Initialization ---
     # Createing a the N init element timetable
     N = 10
@@ -21,11 +21,14 @@ def generic_algorithm (inputML, inputRoom, NumberOfLoop):
             if fit[j] <= 1:
                 result.append(temp_timetables[j])
                 
-        if result != []:
+        if result != []: #have had the result
             break
 
         # --- Selection ---
         Remover = 2
+        if len(temp_timetables) != N:
+            Remover = len(temp_timetables) - N #have mutated
+
         selection(fit, temp_timetables, Remover)
         print(fit)
 
@@ -33,7 +36,13 @@ def generic_algorithm (inputML, inputRoom, NumberOfLoop):
         crossover(fit, temp_timetables)
 
         # --- Mutation ---
-        mutation()
+        # pick one temporary timetable
+        picked_timatable = temp_timetables[random.randint(0,7)]
+        mutation(picked_timatable)
+
+        # avoid the local_max
+        NumberOfMutation = 2
+        max_mutation(inputML, inputRoom, temp_timetables, fit, NumberOfMutation)
 
 
     return result
@@ -79,8 +88,44 @@ def crossover(fit, temp_timetables):
     # create 1 new crossover by both
 
 
-def mutation():
+def mutation(picked_timatable):
     print("-- Mutation --")
+
+    if len(picked_timatable) == 0:
+        return
+
+    # pick 2 random elements
+    temp1 = picked_timatable[random.randint(0, len(picked_timatable)-1)]
+    temp2 = picked_timatable[random.randint(0, len(picked_timatable)-1)]
+
+    if temp1[2] == temp2[2] :
+        print("New Mutation")
+        temp = temp1
+        temp1 = temp1[:3] + temp2[3:]
+        temp2 = temp2[:3] + temp[3:]
+
+# have to max mutate to avoid the local maximum
+# P = max(total(identicalFit))/total(fit)
+def max_mutation(ML, Room, temp_timetables, fit, N):
+    max = 0
+    for i in range(len(fit)-1):
+        duplication = 0
+        for j in range(i+1, len(fit)):
+            if fit[i] == fit[j]:
+                duplication += 1
+
+        if duplication > max:
+            max = duplication
+    
+    # mutation
+    pick = random.randint(0, len(fit)-1)
+    if pick < max:
+        # make N mutation
+        for i in range(0, N):
+            newTempTimetable = []
+            while newTempTimetable == []:
+                newTempTimetable = make_timetable.make_new_timetable(ML, Room)
+                temp_timetables.append(newTempTimetable)
 
 # return array that consist the fit of each temporary timetable
 # the point of temporary timetable is the higher, the fit of one is the lower
@@ -102,6 +147,9 @@ def fitness(temp_timetables):
     return result
 
 def the_fit_of_one(temp_timetable):
+    if len(temp_timetable) == 0:
+        return math.inf
+
     for i in range(len(temp_timetable)-1):
         for j in range(i+1, len(temp_timetable)):
             temp1 = temp_timetable[i]
@@ -129,12 +177,11 @@ def the_fit_of_one(temp_timetable):
 # Initialization function
 def initialization(ML, Room, numberOfInit):
     print("-- Initialization --")
-
+    
     result = []
 
     for i in range(numberOfInit):
         # Create a random room array
-        random.shuffle(Room)
         newTempTimetable = make_timetable.make_new_timetable(ML, Room)
         result.append(newTempTimetable)
 

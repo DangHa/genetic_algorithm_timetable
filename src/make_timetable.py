@@ -12,7 +12,9 @@ import random
 def make_new_timetable(ML, Room):
     result = []
 
-    tempRoom = Room[:]
+    tempRoom = [x[:] for x in Room]
+    random.shuffle(tempRoom)
+
     for i in range(len(ML)):
         for j in range(len(tempRoom)):
 
@@ -23,7 +25,10 @@ def make_new_timetable(ML, Room):
                 break
 
             # cant make timetable with this ML and Room
-            if tempRoom[j][2] <= ML[i][2] and j == len(tempRoom)-1:
+            if tempRoom[j][2] < ML[i][2] and j == len(tempRoom)-1:
+                # print(tempRoom)
+                # print(ML[i][2])
+                # print("WHY")
                 return []
 
     return result
@@ -53,6 +58,7 @@ def remake_timetable(selectedTimeTable):
                 for i in range(len(schedule)):
                     if schedule[i][0] == falseML[1]:
                         scheduleOfFalseML = schedule[i]
+                        break
 
                 # finding a ML of this selected person can change with falseML
                 for j in range(len(result)):
