@@ -34,7 +34,7 @@ def make_new_timetable(ML, Room):
     return result
 
 def remake_timetable(selectedTimeTable):
-    result = selectedTimeTable[:]
+    result = [x[:] for x in selectedTimeTable]
 
     # everyone's schedule
     schedule = scheduleEveryOne(selectedTimeTable)
@@ -96,7 +96,7 @@ def checkSchedule(ML, schedule):
 def scheduleEveryOne(selectedTimeTable):
     result = []
 
-    temp = selectedTimeTable[:]
+    temp = [x[:] for x in selectedTimeTable]
 
     while len(temp) != 0:
         scheduleOfOne = [temp[0][1]]

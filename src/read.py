@@ -61,7 +61,7 @@ def readRoom(fileDir):
         contents = f.readlines()
         for line in contents:
             for i in range(11):
-                room = [line[:len(line) - 2], i+1, 6]
+                room = [line[:len(line)-1], i+1, 6]
                 result.append(room)
 
     # close file
