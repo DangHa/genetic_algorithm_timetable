@@ -26,9 +26,6 @@ def make_new_timetable(ML, Room):
 
             # cant make timetable with this ML and Room
             if tempRoom[j][2] < ML[i][2] and j == len(tempRoom)-1:
-                # print(tempRoom)
-                # print(ML[i][2])
-                # print("WHY")
                 return []
 
     return result
@@ -55,9 +52,9 @@ def remake_timetable(selectedTimeTable):
             if choose == True:
                 # finding schedule of one have faleML
                 scheduleOfFalseML = []
-                for i in range(len(schedule)):
-                    if schedule[i][0] == falseML[1]:
-                        scheduleOfFalseML = schedule[i]
+                for k in range(len(schedule)):
+                    if schedule[k][0] == falseML[1]:
+                        scheduleOfFalseML = schedule[k]
                         break
 
                 # finding a ML of this selected person can change with falseML

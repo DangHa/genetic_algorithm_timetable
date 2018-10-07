@@ -3,7 +3,7 @@ import make_timetable
 
 def generic_algorithm (inputML, inputRoom, NumberOfLoop):
     result = []
-    
+
     # ---  Initialization ---
     # Createing a the N init element timetable
     N = 10
