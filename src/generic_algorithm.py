@@ -15,11 +15,12 @@ def generic_algorithm (inputML, inputRoom, NumberOfLoop):
         # --- Fitness ---
         fit = fitness(temp_timetables)
         print(fit)
+
+        # check whether we have a result
         for j in range(len(fit)):
             if fit[j] <= 1:
                 result.append(temp_timetables[j])
                 
-        
         if result != []:
             break
 
@@ -88,22 +89,20 @@ def fitness(temp_timetables):
     
     result = []
 
-    # set TheFit of all is True
-    # CÓ VẤN ĐỀ Ở ĐÂY
-    for i in range(len(temp_timetables)):
-        for j in range(0, len(temp_timetables[i])):
-            temp_timetables[i][j][6] = True
-    # lúc chạy hàm dưới vẫn có thằng chưa được đổi về là True
-
     # evaluate TheFit
     for i in range(len(temp_timetables)):
-        TheFit = the_fit_of_one(temp_timetables[i], i)
+        temp = temp_timetables[i]
+        # set TheFit of all is True
+        for j in range(len(temp)):
+            temp[j][6] = True
+
+        TheFit = the_fit_of_one(temp)
         result.append(TheFit)
 
     return result
 
-def the_fit_of_one(temp_timetable, check):
-    for i in range(0, len(temp_timetable)-1):
+def the_fit_of_one(temp_timetable):
+    for i in range(len(temp_timetable)-1):
         for j in range(i+1, len(temp_timetable)):
             temp1 = temp_timetable[i]
             temp2 = temp_timetable[j]

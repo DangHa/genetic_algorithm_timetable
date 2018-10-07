@@ -49,14 +49,16 @@ def remake_timetable(selectedTimeTable):
 
             if choose == True:
                 # finding schedule of one have faleML
-                scheOfFalseML = []
+                scheduleOfFalseML = []
                 for i in range(len(schedule)):
                     if schedule[i][0] == falseML[1]:
-                        scheOfFalseML = schedule[i]
+                        scheduleOfFalseML = schedule[i]
 
                 # finding a ML of this selected person can change with falseML
                 for j in range(len(result)):
-                    if result[j][1] == schedule[i][0] and checkSchedule(result[j], scheOfFalseML) == True and result[j][2] == falseML[2]:
+                    # ML doi cua nguoi duoc chon khong trung voi nguoi muon doi
+                    # ML doi cung SoTiet voi ML chon
+                    if result[j][1] == schedule[i][0] and checkSchedule(result[j], scheduleOfFalseML) == True and result[j][2] == falseML[2]:
                         # change time and room
                         temp = result[j]
                         result[j] = temp[:3] + result[positionOfFasleML][3:]
