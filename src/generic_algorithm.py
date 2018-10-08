@@ -40,10 +40,12 @@ def generic_algorithm (inputML, inputRoom, NumberOfLoop):
         picked_timatable = temp_timetables[random.randint(0,7)]
         mutation(picked_timatable)
 
-        # avoid the local_max
+        # avoid the local maximum
         NumberOfMutation = 2
-        max_mutation(inputML, inputRoom, temp_timetables, fit, NumberOfMutation)
+        max_mutation(fit, temp_timetables, inputML, inputRoom, NumberOfMutation)
 
+        # totaly avoid the local maximum
+        best_mutation(fit, temp_timetables, inputML, inputRoom, N)
 
     return result
 
@@ -99,33 +101,39 @@ def mutation(picked_timatable):
     temp2 = picked_timatable[random.randint(0, len(picked_timatable)-1)]
 
     if temp1[2] == temp2[2] :
-        print("New Mutation")
+        print("* New Mutation *")
         temp = temp1
         temp1 = temp1[:3] + temp2[3:]
         temp2 = temp2[:3] + temp[3:]
 
-# have to max mutate to avoid the local maximum
+# max mutation: create N new random temporary timetables
+# to avoid the local maximum
 # P = max(total(identicalFit))/total(fit)
-def max_mutation(ML, Room, temp_timetables, fit, N):
-    max = 0
-    for i in range(len(fit)-1):
-        duplication = 0
-        for j in range(i+1, len(fit)):
-            if fit[i] == fit[j]:
-                duplication += 1
+def max_mutation(fit, temp_timetables, ML, Room, N):
+    maxDup = maxDuplicationOfFit(fit)
 
-        if duplication > max:
-            max = duplication
-    
-    # mutation
     pick = random.randint(0, len(fit)-1)
-    if pick < max:
+    if pick < maxDup:
+        print("* Max mutation *")
         # make N mutation
         for i in range(0, N):
             newTempTimetable = []
             while newTempTimetable == []:
                 newTempTimetable = make_timetable.make_new_timetable(ML, Room)
                 temp_timetables.append(newTempTimetable)
+
+# best mutation: delete all element of temp_timetables and run initialization again 
+# to avoid local maximum that max mutation can't exit
+def best_mutation(fit, temp_timetables, ML, Room, N):
+    maxDup = maxDuplicationOfFit(fit)
+
+    if maxDup >= len(fit)/2:
+        print("* Best mutaion *")
+        # delete all
+        for i in range(len(temp_timetables)):
+            del temp_timetables[0]
+
+        temp_timetables += initialization(ML, Room, N)
 
 # return array that consist the fit of each temporary timetable
 # the point of temporary timetable is the higher, the fit of one is the lower
@@ -186,3 +194,17 @@ def initialization(ML, Room, numberOfInit):
         result.append(newTempTimetable)
 
     return result
+
+# get max duplicate item in list
+def maxDuplicationOfFit(fit):
+    maxDup = 0
+    for i in range(len(fit)-1):
+        duplication = 1
+        for j in range(i+1, len(fit)):
+            if fit[i] == fit[j]:
+                duplication += 1
+
+        if duplication > maxDup:
+            maxDup = duplication
+    
+    return maxDup
