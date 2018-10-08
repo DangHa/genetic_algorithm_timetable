@@ -5,11 +5,11 @@ def generic_algorithm (inputML, inputRoom, NumberOfLoop):
     result = []
 
     # ---  Initialization ---
-    # Createing a the N init element timetable
+    # Create N init element timetable
     N = 10
     temp_timetables = initialization(inputML, inputRoom, N)
 
-    # Begining the evolution
+    # Begin the evolution
     for i in range(0, NumberOfLoop):
 
         # --- Fitness ---
@@ -21,7 +21,7 @@ def generic_algorithm (inputML, inputRoom, NumberOfLoop):
             if fit[j] <= 1:
                 result.append(temp_timetables[j])
                 
-        if result != []: #have had the result
+        if result != []: #have already had the result
             break
 
         # --- Selection ---
@@ -109,6 +109,7 @@ def mutation(picked_timatable):
 # max mutation: create N new random temporary timetables
 # to avoid the local maximum
 # P = max(total(identicalFit))/total(fit)
+
 def max_mutation(fit, temp_timetables, ML, Room, N):
     maxDup = maxDuplicationOfFit(fit)
 
