@@ -32,7 +32,7 @@
 
         * Same b1:  ∄ (A{a1,b1,c1,d1,e1,f1} = A{a2,b1,c2,d2,e2,f2}) 	       (*)
 	                    ∀ (d1 = d2) and 
-			            [(f1 < e2) and (f1 + e1)>f2] or [(f1 > f2) and (f2 + e2)>f1] 
+			            [(f1 < f2) and (f1 + e1)>f2] or [(f1 > f2) and (f2 + e2)>f1] 
 
         * Same c1:  ∄ (A{a1,b1,c1,d1,e1,f1} = A{a2,b2,c1,d2,e2,f2})            (**)
 	                    ∀ (d1 = d2) and 
