@@ -40,7 +40,7 @@
 
     - Target:
 
-        * ∃( p{a,b,c,d,e,f} and p ∈ A)  Satisfies  (*) and (**)
+        * ∃ A{a,b,c,d,e,f}   Satisfies  (*) and (**)
 
 
 ### How to run 
