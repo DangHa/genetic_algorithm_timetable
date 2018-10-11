@@ -42,6 +42,8 @@
 
         * ∃ A{a,b,c,d,e,f}   Satisfies  (*) and (**)
 
+**The progress of algorithm**
+
 
 ### How to run 
     python3 src/main.py
