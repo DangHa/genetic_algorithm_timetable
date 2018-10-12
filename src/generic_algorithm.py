@@ -46,6 +46,7 @@ def generic_algorithm (inputML, inputRoom, NumberOfLoop):
 
         # totaly avoid the local maximum
         best_mutation(fit, temp_timetables, inputML, inputRoom, N)
+        
 
     return result
 
@@ -128,7 +129,7 @@ def max_mutation(fit, temp_timetables, ML, Room, N):
 def best_mutation(fit, temp_timetables, ML, Room, N):
     maxDup = maxDuplicationOfFit(fit)
 
-    if maxDup >= len(fit)/2:
+    if maxDup > len(fit)/2:
         print("* Best mutaion *")
         # delete all
         for i in range(len(temp_timetables)):
@@ -167,11 +168,11 @@ def the_fit_of_one(temp_timetable):
             if temp1[1] == temp2[1] and temp1[4] == temp2[4]:
                 # check whether have same period
                 if temp1[5] < temp2[5]:
-                    if temp1[5]+temp1[2] > temp2[5] and temp1[5]+temp1[2] < temp2[5] + temp2[2]:
+                    if temp1[5]+temp1[2] > temp2[5]:
                         temp_timetable[i][6] = False
                         temp_timetable[j][6] = False
                 else:
-                    if temp2[5]+temp2[2] > temp1[5] and temp2[5]+temp2[2] < temp1[5] + temp1[2]:
+                    if temp2[5]+temp2[2] > temp1[5]:
                         temp_timetable[i][6] = False
                         temp_timetable[j][6] = False
 
