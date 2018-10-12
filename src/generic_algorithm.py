@@ -36,17 +36,16 @@ def generic_algorithm (inputML, inputRoom, NumberOfLoop):
         crossover(fit, temp_timetables)
 
         # --- Mutation ---
-        # pick one temporary timetable
-        picked_timatable = temp_timetables[random.randint(0,7)]
-        mutation(picked_timatable)
+            # totaly avoid the local maximum
+        best_mutation(fit, temp_timetables, inputML, inputRoom, N)
 
-        # avoid the local maximum
+            # avoid the local maximum
         NumberOfMutation = 2
         max_mutation(fit, temp_timetables, inputML, inputRoom, NumberOfMutation)
 
-        # totaly avoid the local maximum
-        best_mutation(fit, temp_timetables, inputML, inputRoom, N)
-        
+            # pick one temporary timetable
+        picked_timatable = temp_timetables[random.randint(0,7)]
+        mutation(picked_timatable)
 
     return result
 

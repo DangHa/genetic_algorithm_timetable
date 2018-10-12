@@ -78,11 +78,11 @@ def checkSchedule(ML, schedule):
         if schedule[j][1] == ML[4]:
             # check whether have same period
             if schedule[j][2] < ML[5]:
-                if schedule[j][2]+schedule[j][3] > ML[5] and schedule[j][2]+schedule[j][3] < ML[5] + ML[2]:
+                if schedule[j][2]+schedule[j][3] > ML[5]:
                     choose = False
                     break
             else:
-                if  ML[5] + ML[2] > schedule[j][2] and ML[5] + ML[2] < schedule[j][2]+schedule[j][3]:
+                if  ML[5] + ML[2] > schedule[j][2]:
                     choose = False
                     break
     
