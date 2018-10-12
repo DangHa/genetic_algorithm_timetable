@@ -1,6 +1,7 @@
 # Timetable with genetic algorithm (GA)
 
-### Description
+
+## Description
 
 **Input**:
 
@@ -44,6 +45,8 @@
 
 **The progress of algorithm**
 
+![](https://gitlab.com/ha_algorithm/timetable/uploads/11607228b5b0e6d5803870f61c2d8699/image.png)
 
-### How to run 
+
+## How to run 
     python3 src/main.py
