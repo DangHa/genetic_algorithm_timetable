@@ -7,7 +7,7 @@
 
     [[Mã lớp, Giảng viên, Số tiết]]
 
-    [[Phòng học, Buổi, SoTietConLai]]
+    [[Phòng học, Buổi thứ mấy, Số tiết còn lại]
 
 *Each week is divided into 12 blocks (from monday to friday)*
 
