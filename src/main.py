@@ -1,24 +1,25 @@
 # import other files
-import read, write, generic_algorithm
+import io_excel_file, generic_algorithm
 from datetime import datetime
 
 def main(inputMLFile, inputRoomFile, outputFile):
 
     # get the data consisting of Malop and Room
-    inputML = read.read_ML(inputMLFile)
-    inputRoom = read.readRoom(inputRoomFile)
-    # print(inputML)
-    # print(inputRoom)
+    inputML = io_excel_file.read_ML(inputMLFile)
+    inputRoom = io_excel_file.read_Room(inputRoomFile)
 
     # run GA
-    NumberOfLoop = 10000
+    NumberOfLoop = 200
+    
+    start = datetime.now()
     result_timetable = generic_algorithm.generic_algorithm(inputML, inputRoom, NumberOfLoop)
+    print ("Running time: ", datetime.now()-start)
 
     # writing final timetable into file
-    write.write_file(result_timetable, outputFile)
+    io_excel_file.write_file(result_timetable, outputFile)
 
 if __name__ == "__main__":
-    start=datetime.now()
-    main("file/inputML.txt", "file/inputRoom.txt", "file/output.txt")
-    print ("Running time: ", datetime.now()-start)
+    
+    main("file/inputML.csv", "file/inputRoom.txt", "file/output.csv")
+    
 

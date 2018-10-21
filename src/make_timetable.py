@@ -1,8 +1,9 @@
 # Input:
-#     [[Mã lớp, Giảng viên, Số tiết]]
+#     [[Mã lớp, Giảng viên, Số tiết, Lop Sinh Vien]]
 #     [[Phòng học, Buổi, Số tiết còn lại]]
 # Output:
-#     [[Mã lớp, Giảng viên, Số tiết, Phòng, Buổi, Tiết bắt đầu, TheFit]]
+#     [[Mã lớp, Giảng viên, Số tiết, Phòng, Buổi, Tiết bắt đầu, TheFitOfTeacher,
+#                                                   StudentClass,TheFitOfStudent]]
 #     [] - if cant create
 
 # De tang hieu qua toi da day xep tat ca ML co nhieu tiet vao truoc
@@ -17,9 +18,8 @@ def make_new_timetable(ML, Room):
 
     for i in range(len(ML)):
         for j in range(len(tempRoom)):
-
             if tempRoom[j][2] >= ML[i][2]:
-                MLHaveRoom = ML[i] + tempRoom[j][:2] + [7-tempRoom[j][2], True]
+                MLHaveRoom = ML[i][:3] + tempRoom[j][:2] + [7-tempRoom[j][2], True, ML[i][3], True]
                 result.append(MLHaveRoom)
                 tempRoom[j][2] -= ML[i][2]
                 break
@@ -30,11 +30,12 @@ def make_new_timetable(ML, Room):
 
     return result
 
-def remake_timetable(selectedTimeTable):
+def improve_timetable(selectedTimeTable, fit):
     result = [x[:] for x in selectedTimeTable]
 
     # everyone's schedule
-    schedule = scheduleEveryOne(selectedTimeTable)
+    teacherNames = all_teacher(selectedTimeTable)
+    random.shuffle(teacherNames)
 
     # get a class have the false TheFit
     falseML = []
@@ -43,34 +44,84 @@ def remake_timetable(selectedTimeTable):
         if selectedTimeTable[i][6] == False:
             falseML = selectedTimeTable[i][:]
             positionOfFasleML = i
-            
-    # change with other one with schdule can add the falseML
-    for i in range(len(schedule)):
-        if falseML[1] != schedule[i][0]:
-            choose = checkSchedule(falseML, schedule[i])
+            break
+    
+    # This timetable is suitable for all teacher
+    # -> we'll make it fit for student (basis function - advaned function that same with teacher)
+    if falseML == []:
+        for i in range(len(selectedTimeTable)):
+            if selectedTimeTable[i][8] == False:
+                falseML = selectedTimeTable[i][:]
+                positionOfFasleML = i
+                break
+
+    for i in range(len(teacherNames)):
+        if falseML[1] != teacherNames[i]:
+            schedule = teacherSchedule(selectedTimeTable, teacherNames[i])
+            choose = check(falseML, schedule)
 
             if choose == True:
                 # finding schedule of one have faleML
-                scheduleOfFalseML = []
-                for k in range(len(schedule)):
-                    if schedule[k][0] == falseML[1]:
-                        scheduleOfFalseML = schedule[k]
-                        break
+                scheduleOfFalseML = teacherSchedule(selectedTimeTable, falseML[1])
+                
+                # -- Run a little mutation to avoid the local maximum when the main mutation was turn off
+                if falseML[6] == True and len(set(fit)) == 1: 
+                    random.shuffle(result)
 
-                # finding a ML of this selected person can change with falseML
                 for j in range(len(result)):
-                    # ML doi cua nguoi duoc chon khong trung voi nguoi muon doi
-                    # ML doi cung SoTiet voi ML chon
-                    if result[j][1] == schedule[i][0] and checkSchedule(result[j], scheduleOfFalseML) == True and result[j][2] == falseML[2]:
-                        # change time and room
-                        temp = result[j]
-                        result[j] = temp[:3] + result[positionOfFasleML][3:]
-                        result[positionOfFasleML] = result[positionOfFasleML][:3] + temp[3:]
-                        break
+                        # findding ML can change with falseML and fit with time of teacher
+                        if result[j][1] == schedule[0] and check(result[j], scheduleOfFalseML) == True and result[j][2] == falseML[2]:
+                            # check whether the change is suitable with time of student
+                            schedule1 = studentSchedule(selectedTimeTable, falseML[7])
+                            schedule2 = studentSchedule(selectedTimeTable, result[j][7])
+                            if check(result[j], schedule1) and check(falseML, schedule2) and result[j][7] != falseML[7]:
+                                temp = result[j]
+                                result[j] = temp[:3] + result[positionOfFasleML][3:6] + temp[6:]
+                                result[positionOfFasleML] = result[positionOfFasleML][:3] + temp[3:6]+ result[positionOfFasleML][6:]
+                                return result
+                
+    return result
+
+def all_teacher(selectedTimeTable):
+    result = []
+
+    for i in range(len(selectedTimeTable)):
+        choose = True
+        for j in range(len(result)):
+            if result[j] == selectedTimeTable[i][1]:
+                choose = False
+                break
+
+        if choose:
+            result.append(selectedTimeTable[i][1])
 
     return result
 
-def checkSchedule(ML, schedule):
+# output: [teacherName, [ML, Buoi, TietBatDau, SoTiet], [], [], ...]
+def teacherSchedule(selectedTimeTable, teacherName):
+    temp = selectedTimeTable
+
+    result = [teacherName]
+    for i in range(len(temp)):
+        if temp[i][1] == teacherName:
+            Class = [temp[i][0], temp[i][4], temp[i][5], temp[i][2]]
+            result.append(Class)
+    
+    return result
+
+# output: [classname, [ML, Buoi, TietBatDau, SoTiet], [], [], ...]
+def studentSchedule(selectedTimeTable, className):
+    temp = selectedTimeTable
+
+    result = [className]
+    for i in range(len(temp)):
+        if temp[i][7] == className:
+            Class = [temp[i][0], temp[i][4], temp[i][5], temp[i][2]]
+            result.append(Class)
+    
+    return result
+
+def check(ML, schedule):
     choose = True
 
     for j in range(1, len(schedule)):
@@ -87,31 +138,3 @@ def checkSchedule(ML, schedule):
                     break
     
     return choose
-
-# schedule of one: [name, [ML, Buoi, TietBatDau, SoTiet], [], [], ...]
-# output: [schedule of every one]
-def scheduleEveryOne(selectedTimeTable):
-    result = []
-
-    temp = [x[:] for x in selectedTimeTable]
-
-    while len(temp) != 0:
-        scheduleOfOne = [temp[0][1]]
-
-        remove = []
-        for i in range(len(temp)):
-            if temp[i][1] == scheduleOfOne[0]:
-
-                Class = [temp[i][0], temp[i][4], temp[i][5], temp[i][2]]
-                scheduleOfOne.append(Class)
-                remove.append(temp[i][0])
-
-        for i in range(len(remove)):
-            for j in range(len(temp)):
-                if temp[j][0] == remove[i]:
-                    del temp[j]
-                    break
-        
-        result.append(scheduleOfOne)
-    
-    return result
