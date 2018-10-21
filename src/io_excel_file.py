@@ -22,7 +22,7 @@ def read_Room(fileDir):
 
 # output: ["Malop", "GiangVien", "Lop sinh vien", "Sotiet"]
 def read_ML(fileDir):
-    inputML = pandas.read_csv(fileDir).sort_values(by = 'SoTiet', ascending = False)
+    inputML = pandas.read_csv(fileDir).sort_values(by = 'So Tiet', ascending = False)
     return inputML.values.tolist()
 
 # print: ["Malop", "GiangVien", "Lop sinh vien", "Sotiet",
