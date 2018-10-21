@@ -29,7 +29,8 @@ def read_ML(fileDir):
 #           "Phong Hoc", "Buoi Thu May", "Tiet bat dau",
 #           "Fit Giang Vien"]
 def write_file(data, outputFile):
-    df = pandas.DataFrame(data)
+    columns = ['ML', 'Giang Vien', 'So Tiet', 'Phong', 'Buoi', 'Tiet Bat Dau', 'Fit of Giang Vien', 'Lop Sinh Vien', 'Fit of Sinh Vien']
+    df = pandas.DataFrame(data, columns=columns)
     df.to_csv(outputFile)
 
 if __name__ == "__main__":
