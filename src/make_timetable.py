@@ -19,7 +19,7 @@ def make_new_timetable(ML, Room):
     for i in range(len(ML)):
         for j in range(len(tempRoom)):
             if tempRoom[j][2] >= ML[i][2]:
-                MLHaveRoom = ML[i][:3] + tempRoom[j][:2] + [7-tempRoom[j][2], True, ML[i][3], True]
+                MLHaveRoom = ML[i][:3] + tempRoom[j][:2] + [7-tempRoom[j][2], True, ML[i][3], True, ML[i][4]]
                 result.append(MLHaveRoom)
                 tempRoom[j][2] -= ML[i][2]
                 break
@@ -117,7 +117,7 @@ def studentSchedule(selectedTimeTable, className):
     result = [className]
     for i in range(len(temp)):
         if temp[i][7] == className:
-            Class = [temp[i][0], temp[i][4], temp[i][5], temp[i][2]]
+            Class = [temp[i][0], temp[i][4], temp[i][5], temp[i][2], temp[i][9]]
             result.append(Class)
     
     return result
@@ -126,6 +126,12 @@ def check(ML, schedule):
     choose = True
 
     for j in range(1, len(schedule)):
+
+        # if have the same HP -> Satisfies schedule of both
+        if len(schedule[j]) == 5:
+            if schedule[j][4] == ML[9]:
+                break
+
         # check whether have same block
         if schedule[j][1] == ML[4]:
             # check whether have same period

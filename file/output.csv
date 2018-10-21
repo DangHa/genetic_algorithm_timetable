@@ -1,504 +1,503 @@
-,0,1,2,3,4,5,6,7,8
-0,676327,Bui Quoc Anh,3,D5-402,8,1,True,N151,True
-1,676201,Nguyen Khanh Van,3,D35-202,10,5,True,N25,True
-2,676255,Nguyen Huu Duc,3,D5-305,7,1,True,N79,True
-3,676221,Do Quoc Huy,3,D35-201,6,1,True,N45,True
-4,104415,Nguyen Thanh Hung,3,D5-504,2,4,True,Công nghệ thông tin-K61S,True
-5,676219,Nguyen Van Thuan,3,D35-401,6,1,True,N43,True
-6,104398,NGuyen DInh Thuan,2,D5-202,4,5,True,Công nghệ thông tin-K61S,True
-7,676276,Do Tuan Anh,3,D5-405,10,4,True,N100,True
-8,103932,Dinh Viet Sang,3,D5-304,1,4,True,KSTN-CNTT-K60S,True
-9,104437,Vu Duc Vuong,2,D5-403,9,5,True,HTTT-K60C,True
-10,676366,Huynh Thi Thanh Binh,5,D5-105,11,1,True,N201,True
-11,104094,Tran Dinh Khang,3,D5-104,7,1,True,KSCLC-HTTT&TT-K61C,True
-12,104436,Nguyen Phi Le,3,D5-102,2,4,True,HTTT-K60C,True
-13,104080,Nguyen Ngoc Dung,3,D5-303,6,4,True,KSCLC-HTTT&TT-K60S,True
-14,104438,Le Xuan Thanh,4,D5-402,1,1,True,HTTT-K60C,True
-15,104946,Huynh Thi Thanh Binh,4,D35-401,1,1,True,"KT Điện, ĐK&TĐH 1,2-K62C",True
-16,676214,Do Tuan Anh,3,D5-504,7,4,True,N38,True
-17,103759,Nguyen Phi Le,4,D35-301,4,1,True,VN-1-K61C,True
-18,676236,Pham Ngoc Hung,3,D35-501,1,4,True,N60,True
-19,104364,Nguyen Duc Nghia,2,D5-104,2,5,True,KHMT-K62C,True
-20,105126,La The Vinh,4,D5-105,8,1,True,ĐTVT-K62C,True
-21,676245,Nguyen Khanh Phuong,3,D5-101,11,4,True,N69,True
-22,676284,Nguyen Thanh Trung,3,D35-301,1,4,True,N108,True
-23,676184,Nguyen Duc Nghia,3,D35-502,11,4,True,N08,True
-24,103764,Pham Ngoc Hung,4,D35-202,2,1,True,VN(IS)-K60S,True
-25,676358,Nguyen Duc Nghia,3,D35-501,2,1,True,N182,True
-26,676254,Than Quang Khoat,3,D35-502,6,4,True,N78,True
-27,103846,Ban Ha Bang,2,D35-201,11,5,True,ICT-K59C,True
-28,676189,Pham Van Hai,3,D5-502,10,1,True,N13,True
-29,676226,Nguyen Khanh Phuong,3,D5-401,7,4,True,N50,True
-30,104437,Trinh Tuan Dat,2,D5-401,10,5,True,HTTT-K60C,True
-31,676210,Nguyen Binh Minh,3,D35-302,6,1,True,N34,True
-32,676303,Le Tan Hung,3,D5-205,2,1,True,N127,True
-33,676174,La The Vinh,5,D5-202,10,1,True,N184,True
-34,676259,Pham Ngoc Hung,3,D5-404,10,1,True,N83,True
-35,676332,Nguyen Ngoc Duong,3,D35-201,8,1,True,N156,True
-36,676196,Do Quoc Huy,3,D35-201,5,1,True,N20,True
-37,103768,Nguyen Ba Ngoc,2,D5-501,6,5,True,VN(AS)-K60S,True
-38,104090,Le Ba Vui,3,D35-302,11,1,True,"KSCLC-THCN, HTTT&TT-K61C",True
-39,104461,Trinh Anh Phuc,3,D35-401,5,4,True,KTMT-K60C,True
-40,676278,Nguyen Khanh Van,3,D5-205,3,1,True,N102,True
-41,676317,Nguyen Thi Thanh Nga,3,D5-101,7,4,True,N141,True
-42,676266,Nguyen Kiem Hieu,3,D5-102,4,4,True,N90,True
-43,676354,Vu Thi Huong Giang,3,D5-103,5,4,True,N178,True
-44,104451,Le Xuan Thanh,2,D35-201,3,5,True,ATTT-K60C,True
-45,676139,Nguyen Duc Tien,5,D35-501,10,1,True,N204,True
-46,104472,Nguyen Phi Le,3,D5-101,8,4,True,KS HTTT-K59S,True
-47,104791,Nguyen Nhat Quang,2,D5-402,5,5,True,CN Cơ điện tử-K61C,True
-48,679581,Nguyen Huu nam Duong,3,D5-403,11,1,True,CTTT-CĐT-KTVL,True
-49,676265,Than Quang Khoat,3,D5-504,8,1,True,N89,True
-50,676344,Ngo Duy Hoa,3,D5-302,8,1,True,N168,True
-51,676172,Bui Quoc Anh,5,D35-401,3,1,True,N210,True
-52,103904,Do thi Thu Trang,3,D5-503,5,1,True,KSTN-CNTT-K59C,True
-53,676241,Nguyen Duc Tien,3,D5-102,11,1,True,N65,True
-54,676287,Nguyen Hong Phuong,3,D5-202,11,1,True,N111,True
-55,104445,Tran Dinh Khang,2,D5-204,5,5,True,CNPM-K60C,True
-56,676334,Nguyen Thanh Hung,3,D5-401,11,4,True,N158,True
-57,104487,Le Duc Trung,2,D35-201,5,4,True,ATTT-K59S,True
-58,103781,Nguyen Thanh Hung,4,D35-402,7,1,True,VN-K60C,True
-59,103973,Ban Ha Bang,3,D5-305,4,1,True,KSTN-CNTT-K61C,True
-60,104464,Pham Dang Hai,3,D5-403,6,4,True,TTMMT-K60C,True
-61,676669,Hoang Thi Hai Yen,3,D5-305,5,1,True,CTTT-CĐT-KTVL,True
-62,676166,Nguyen Thi Oanh,5,D5-503,2,1,True,N215,True
-63,676142,Pham Van Hai,5,D35-202,5,1,True,N213,True
-64,676336,Do Quoc Huy,3,D5-104,6,4,True,N160,True
-65,676308,Pham Dang Hai,3,D5-501,11,4,True,N132,True
-66,104450,NGuyen DInh Thuan,4,D5-304,6,1,True,ATTT-K60C,True
-67,104412,Nguyen Thi Thu Huong,3,D35-502,1,1,True,Công nghệ thông tin-K61S,True
-68,104509,Nguyen Phi Le,3,D5-303,7,1,True,CN CNTT&TT-K61S,True
-69,104490,Nguyen Thi Thanh Nga,4,D5-503,6,1,True,ATTT-K59S,True
-70,676274,Ngo Van Linh,3,D5-403,7,1,True,N98,True
-71,104455,Do Ba Lam,4,D5-502,11,1,True,ATTT-K60C,True
-72,104398,Tran Tuan Vinh,2,D5-202,3,5,True,Công nghệ thông tin-K61S,True
-73,104364,Do Phan Thuan,2,D35-202,9,5,True,KHMT-K62C,True
-74,103844,Ngo Tuan Phong,2,D5-404,4,5,True,ICT-K60C,True
-75,676328,Nguyen Thanh Kien,3,D5-301,2,4,True,N152,True
-76,676140,Dao Thanh Chung,5,D5-502,1,1,True,N207,True
-77,676193,Nguyen Kim Anh,3,D5-203,7,4,True,N17,True
-78,676244,La The Vinh,3,D35-302,7,1,True,N68,True
-79,676222,Nguyen Thanh Trung,3,D5-302,9,1,True,N46,True
-80,676173,Nguyen Thanh Hung,5,D5-205,4,1,True,N211,True
-81,104400,Nguyen Kim Khanh,2,D35-401,11,5,True,Công nghệ thông tin-K61S,False
-82,103788,Vu Duc Vuong,2,D5-104,11,5,True,VN(AS)-K59S,True
-83,104082,Tran Vinh Duc,2,D5-204,4,5,True,KSCLC-HTTT&TT-K60S,True
-84,676215,Huynh Thi Thanh Binh,3,D5-305,3,1,True,N39,True
-85,676141,Le Duc Trung,5,D5-502,8,1,True,N212,True
-86,103903,Huynh Quyet Thang,3,D35-402,9,4,True,KSTN-CNTT-K59C,True
-87,103752,Nguyen Ngoc Dung,4,D35-402,10,1,True,VN-3-K61S,True
-88,676147,Nguyen Kiem Hieu,5,D35-202,7,1,True,N193,True
-89,103754,Dinh Viet Sang,4,D5-502,4,1,True,VN-1-K61S,True
-90,676190,Ngo Lam Trung,3,D5-502,10,4,True,N14,True
-91,104378,Trinh Anh Phuc,2,D35-302,4,5,True,CNTT-K62C,True
-92,104079,Than Quang Khoat,4,D5-105,7,1,True,KSCLC-HTTT&TT-K60S,True
-93,676302,NGuyen DInh Thuan,3,D5-402,4,1,True,N126,True
-94,676310, Tran Trung Kien,3,D5-505,1,4,True,N134,True
-95,676175,Trinh Thanh Trung,5,D5-505,9,1,True,N185,True
-96,105858,Nguyen Ngoc Duong,4,D5-304,2,1,True,"QTKD-K62C,Kế toán-K62C,TCNH-K62C",True
-97,103813,Than Quang Khoat,4,D5-101,5,1,True,ICT-K62C,True
-98,676357,Nguyen Hong Quang,3,D5-404,10,4,True,N181,True
-99,104404,Hoang Thi Hai Yen,3,D5-405,10,1,True,Công nghệ thông tin-K61S,True
-100,104460,Ngo Van Linh,3,D5-102,10,4,True,KTMT-K60C,True
-101,104142,Nguyen Van Thuan,3,D5-305,4,4,True,CTTT-CĐT-K60S,True
-102,103845,Vu Duc Vuong,3,D5-105,2,4,True,ICT-K60C,True
-103,104420,Nguyen Kiem Hieu,2,D5-301,8,5,True,Công nghệ thông tin-K61C,True
-104,105590,Trinh Van Loan,3,D5-405,1,4,True,KTIn -K62S,True
-105,104601,Tran Viet Trung,4,D5-405,11,1,True,CK-K62S,True
-106,104399,Do Ba Lam,4,D35-301,9,1,True,Công nghệ thông tin-K61S,True
-107,104538,Nguyen Khanh Phuong,4,D5-304,8,1,True,CK.CĐT-K62S,True
-108,676263,Nguyen Ba Ngoc,3,D5-201,1,1,True,N87,True
-109,676339,Le Ba Vui,3,D5-202,8,1,True,N163,True
-110,676249,Nguyen Huu nam Duong,3,D35-401,6,4,True,N73,True
-111,104352,Trinh Tuan Dat,2,D5-303,11,5,True,KHMT-K62C,True
-112,676256,Nguyen Phu Binh,3,D5-305,7,4,True,N80,True
-113,103839, Tran Trung Kien,2,D5-301,6,5,True,ICT-K60C,True
-114,104423,Do Tuan Anh,3,D5-204,8,1,True,KT Máy tính & TT-K61S,True
-115,676291,Nguyen Thanh Kien,3,D5-403,2,1,True,N115,True
-116,104459,Nguyen Binh Minh,3,D35-502,1,4,True,KTMT-K60C,True
-117,105357,Do Quoc Huy,4,D5-404,9,1,True,"Toán-tin-K62C,HTTT quản lý-K62C",True
-118,104431,Do thi Thu Trang,3,D5-305,3,4,True,KHMT-K60C,True
-119,104453,Do Phan Thuan,3,D5-103,10,1,True,ATTT-K60C,True
-120,676229,Huynh Quyet Thang,3,D5-102,4,1,True,N53,True
-121,104503,Tran Dinh Khang,3,D5-204,8,4,True,KS KHMT-K59S,True
-122,104430,Vu Duc Vuong,4,D5-204,9,1,True,Công nghệ thông tin-K60C,True
-123,676213,Pham Quang Dung,3,D5-501,8,4,True,N37,True
-124,676361,Vu Tuyet Trinh,5,D35-302,5,1,True,N196,True
-125,676338,Than Quang Khoat,3,D5-401,8,4,True,N162,True
-126,103826,Nguyen Huu nam Duong,4,D35-302,4,1,True,ICT-K61C,True
-127,104401,NGuyen DInh Thuan,4,D5-102,5,1,True,Công nghệ thông tin-K61S,True
-128,103852,Nguyen Thanh Hung,2,D5-201,7,5,True,ICT-K59C,True
-129,103851,Tran Vinh Duc,2,D5-105,8,5,True,ICT-K59C,True
-130,103765,Cao Tuan Dung,4,D5-104,9,1,True,VN(IS)-K60S,True
-131,676340,Nguyen Huu nam Duong,3,D5-102,2,1,True,N164,True
-132,104087,Bui Quoc Anh,3,D5-504,9,1,True,KSCLC-THCN HTTT&TT-K61C,True
-133,676352,Trinh Van Loan,3,D5-402,6,4,True,N176,True
-134,104471,Nguyen Duc Tien,4,D35-301,7,1,True,KS HTTT-K59S,True
-135,103838,Nguyen Nhat Quang,4,D5-203,11,1,True,ICT-K60C,True
-136,103849,Nguyen Viet Huy,2,D5-405,6,5,True,ICT-K59S,True
-137,676342,Ngo Van Linh,3,D35-301,3,4,True,N166,True
-138,676349,Ban Ha Bang,3,D5-304,3,1,True,N173,True
-139,679579,Le Duc Trung,3,D5-302,2,1,True,CTTT-ĐTVT-HTĐ-TĐH,True
-140,676170,Ngo Duy Hoa,5,D5-105,10,1,True,N208,True
-141,104462,Nguyen Hong Phuong,3,D5-402,10,1,True,TTMMT-K60C,True
-142,104441,Nguyen Huu nam Duong,2,D5-105,7,5,True,HTTT-K60C,True
-143,676273,Cao Tuan Dung,3,D35-501,2,4,True,N97,True
-144,104482,Tran Vinh Duc,4,D5-104,4,1,True,KS KTPM-K59S,True
-145,676151,Pham Quang Dung,5,D35-402,5,1,True,N205,True
-146,679502,Nguyen Thi Thu Trang,6,D35-201,10,1,True,Thuật toán - Hợp tác Samsung (Lớp 2),True
-147,103758,Nguyen Van Thuan,4,D5-405,2,1,True,VN-2-K61C,True
-148,104446,Trinh Van Loan,3,D5-504,10,4,True,CNPM-K60C,True
-149,676362,Nguyen Binh Minh,5,D35-202,11,1,True,N197,True
-150,104447,Tran Tuan Vinh,2,D35-202,2,5,True,CNPM-K60C,True
-151,676150,Nguyen Khanh Van,3,D5-304,3,4,True,N204,True
-152,676670,Ngo Duy Hoa,3,D5-305,5,4,True,CTTT-CĐT-KTVL,True
-153,103933,Nguyen Viet Huy,4,D5-504,11,1,True,KSTN-CNTT-K60S,True
-154,104410,Nguyen Van Thuan,4,D35-302,3,1,True,Công nghệ thông tin-K61S,True
-155,104510,Nguyen Ngoc Dung,3,D5-201,9,1,True,CN CNTT&TT-K61S,True
-156,676356,Huynh Thi Thanh Binh,3,D35-201,8,4,True,N180,True
-157,676279,Ngo Duy Hoa,3,D5-105,4,4,True,N103,True
-158,104559,Nguyen Kim Khanh,4,D5-404,4,1,True,CK-K62S,True
-159,676324,Nguyen Ngoc Dung,3,D5-205,1,4,True,N148,True
-160,104418,Nguyen Kim Khanh,3,D35-201,2,1,True,ATTT-K61S,True
-161,676187,Bui Quoc Anh,3,D35-301,2,1,True,N11,True
-162,676318,Nguyen Thanh Hung,3,D5-305,10,4,True,N142,True
-163,676207,Nguyen Hong Phuong,3,D5-503,7,1,True,N31,True
-164,104449,Vu Tuyet Trinh,3,D35-402,9,1,True,CNPM-K60C,True
-165,103779,Nguyen Viet Huy,4,D5-304,10,1,True,VN-1-K60C,True
-166,104432,Nguyen Thi Thu Huong,4,D35-502,10,1,True,KHMT-K60C,True
-167,676159, Tran Trung Kien,3,D5-405,7,4,True,KSTN K62,True
-168,104409,Nguyen Thanh Trung,2,D35-402,7,5,True,Công nghệ thông tin-K61S,True
-169,676240,Le Thanh Huong,3,D35-302,7,4,True,N64,True
-170,104497,Le Ba Vui,3,D5-304,9,4,True,KS TT&MMT-K59S,True
-171,103766,Vu Thi Huong Giang,2,D5-401,3,5,True,VN(IS)-K60S,True
-172,104156,Nguyen Thi Thanh Nga,3,D5-102,9,1,True,CTTT-Cơ điện tử-K61S,True
-173,103830,Do Ba Lam,4,D5-505,4,1,True,ICT-K61S,True
-174,105114,Nguyen Hong Quang,4,D35-501,3,1,True,ĐTVT-K62C,True
-175,676233,Nguyen Viet Huy,3,D35-502,2,1,True,N57,True
-176,676204,Ban Ha Bang,3,D5-401,1,1,True,N28,True
-177,104409,Nguyen Ngoc Duong,2,D5-204,6,5,True,Công nghệ thông tin-K61S,True
-178,676145,Nguyen Kim Anh,5,D5-101,6,1,True,N191,True
-179,676216,Bui Quoc Anh,3,D35-301,2,4,True,N40,True
-180,676218,Huynh Quyet Thang,3,D35-202,3,4,True,N42,True
-181,103850,Vu Thi Huong Giang,2,D5-104,9,5,True,ICT-K59C,True
-182,676149,Nguyen Huu Duc,5,D35-501,5,1,True,N195,True
-183,676282,Nguyen Thi Thu Huong,3,D5-505,8,4,True,N106,True
-184,679580,Nguyen Thanh Trung,3,D35-401,10,4,True,CTTT-ĐTVT-HTĐ-TĐH,True
-185,104512,Hoang Thi Hai Yen,2,D5-304,8,5,True,CN CNTT&TT-K61S,True
-186,104426,Nguyen Hong Phuong,3,D5-405,5,1,True,KT Máy tính & TT-K61S,True
-187,676253,Trinh Anh Phuc,3,D5-202,6,4,True,N77,True
-188,104182,Hoang Thi Hai Yen,3,D35-201,6,4,True,TT.CĐT-TT.KTVL-K62C,True
-189,104480,Tran Tuan Vinh,3,D35-501,6,4,True,KS KTPM-K59C,True
-190,103767,Dao Thanh Chung,2,D5-503,11,5,True,VN(IS)-K60C,True
-191,104477,Nguyen Phi Le,4,D5-505,3,1,True,KS KTPM-K59S,True
-192,104473,Trinh Tuan Dat,3,D5-502,2,4,True,KS HTTT-K59S,True
-193,103840,Nguyen Tuan Dung,2,D35-301,9,5,True,ICT-K60C,True
-194,103842,Trinh Thanh Trung,4,D5-401,10,1,True,ICT-K60C,True
-195,104511,Le Thanh Huong,3,D5-504,4,1,True,CN CNTT&TT-K61S,True
-196,104463,Nguyen Kiem Hieu,3,D5-304,9,1,True,TTMMT-K60C,True
-197,104443, Tran Trung Kien,4,D5-301,8,1,True,CNPM-K60C,True
-198,104486,Nguyen Tuan Dung,4,D5-104,11,1,True,ATTT-K59S,True
-199,104392,La The Vinh,4,D5-302,1,1,True,KTMT-K62C,True
-200,104505,Nguyen Hong Phuong,3,D5-104,6,1,True,CN CNTT&TT-K61S,True
-201,104456,Pham Van Hai,3,D5-202,7,1,True,"ATTT,TTMMT-K60C",True
-202,676313,Ngo Lam Trung,3,D5-505,8,1,True,N137,True
-203,676205,Nguyen Tuan Dung,3,D5-503,7,4,True,N29,True
-204,104009,Ngo Duy Hoa,4,D35-202,9,1,True,KSTN-K62S,True
-205,676146,Nguyen Duy Hiep,5,D5-205,8,1,True,N192,True
-206,104494,Le Xuan Thanh,3,D5-105,2,1,True,KTMT&TT-K59S,True
-207,104379,Dinh Viet Sang,4,D5-404,8,1,True,CNTT-K62C,True
-208,676326,Nguyen Thi Thanh Nga,3,D5-402,4,4,True,N150,True
-209,104929,Cao Tuan Dung,4,D5-301,6,1,True,KT Điện-K62C,True
-210,104470,Nguyen Thi Thu Trang,2,D5-505,3,5,True,KS HTTT-K59S,True
-211,103782,Nguyen Kim Anh,2,D35-402,3,5,True,VN-K60C,True
-212,104427,Vu Tuyet Trinh,4,D5-305,1,1,True,KT Máy tính & TT-K61S,True
-213,676177,Nguyen Binh Minh,3,D5-405,7,1,True,N01,True
-214,104508,Dinh Viet Sang,3,D5-305,2,4,True,CN CNTT&TT-K61S,True
-215,676248,Nguyen Van Thuan,3,D5-505,10,1,True,N72,True
-216,104393,Nguyen Ngoc Duong,2,D5-304,10,5,True,KTMT-K62C,True
-217,676155,Trinh Thanh Trung,3,D5-105,6,4,True,KSTN K62,True
-218,679623,Do Ba Lam,3,D5-305,10,1,True,KSTN K62,True
-219,103755,Le Xuan Thanh,2,D35-301,7,5,True,VN-K61S,True
-220,103784,Nguyen Thi Oanh,2,D5-305,9,5,True,VN(IS)-K59S,True
-221,676232,Ngo Lam Trung,3,D5-502,5,4,True,N56,True
-222,676154,Do thi Thu Trang,3,D5-105,6,1,True,KSTN K62,True
-223,676315,Nguyen Khanh Phuong,3,D5-104,10,4,True,N139,True
-224,676192,Nguyen Hong Quang,3,D5-303,5,4,True,N16,True
-225,676314,Trinh Tuan Dat,3,D35-302,2,1,True,N138,True
-226,676292,Vu Tuyet Trinh,3,D35-302,6,4,True,N116,True
-227,676305,Nguyen Van Thuan,3,D5-504,1,1,True,N129,True
-228,676322,Do Phan Thuan,3,D35-501,7,1,True,N146,True
-229,103786,Tran Viet Trung,2,D5-104,5,5,True,VN(AS)-K59S,True
-230,104448,Le Thanh Huong,3,D5-504,10,1,True,CNPM-K60C,True
-231,104502,Tran Viet Trung,3,D5-201,4,4,True,KS KHMT-K59S,True
-232,676364,Nguyen Ba Ngoc,5,D5-501,10,1,True,N199,True
-233,103901,Nguyen Binh Minh,3,D5-202,8,4,True,KSTN-CNTT-K59C,True
-234,113843,Le Ba Vui,2,D5-304,6,5,True,ICT-K60S,True
-235,104083,NGuyen DInh Thuan,2,D5-302,7,5,True,KSCLC-HTTT&TT-K60S,True
-236,676183,Nguyen Thi Thu Trang,3,D35-501,7,4,True,N07,True
-237,103783,Nguyen Kim Khanh,2,D5-504,3,5,True,VN(IS)-K59S,True
-238,676320,Huynh Thi Thanh Binh,3,D5-203,7,1,True,N144,True
-239,676195,Nguyen Phu Binh,3,D5-101,7,1,True,N19,True
-240,676194,Nguyen Kiem Hieu,3,D5-101,4,1,True,N18,True
-241,103756,Nguyen Thi Oanh,4,D35-202,10,1,True,VN-4-K61C,True
-242,676220,Nguyen Thi Thu Huong,3,D35-202,4,4,True,N44,True
-243,103968,Tran Tuan Vinh,2,D5-404,9,5,True,KSTN-CNTT-K61C,True
-244,676301,Cao Tuan Dung,3,D5-101,8,1,True,N125,True
-245,104408,Huynh Quyet Thang,4,D35-302,1,5,True,Công nghệ thông tin-K61S,True
-246,676281,Tran Vinh Duc,3,D35-202,1,4,True,N105,True
-247,104504,Than Quang Khoat,3,D35-402,4,4,True,CN CNTT&TT-K61S,True
-248,676168,Nguyen Thi Thu Huong,4,D5-201,11,1,True,N187,True
-249,103969,Nguyen Hong Quang,4,D35-302,8,1,True,KSTN-CNTT-K61C,True
-250,104484,La The Vinh,3,D35-301,5,1,True,ATTT-K59S,True
-251,104014,Le Xuan Thanh,4,D5-105,3,1,True,KSTN-CNTT-K62S,True
-252,104058,Nguyen Nhat Quang,3,D5-301,2,1,True,KSCLC-HTTT&TT-K59C,True
-253,104051,Ngo Tuan Phong,4,D5-303,11,1,True,KSCLC-HTTT&TT-K59C,True
-254,104419,Trinh Van Loan,4,D35-502,4,1,True,ATTT-K61C,True
-255,104479,Trinh Tuan Dat,3,D5-302,10,1,True,KS KTPM-K59S,True
-256,104501, Tran Trung Kien,3,D5-203,4,1,True,KS KHMT-K59S,True
-257,676321,Tran Dinh Khang,3,D5-302,9,4,True,N145,True
-258,104496,Nguyen Viet Huy,3,D5-403,6,1,True,KS TT&MMT-K59S,True
-259,676235,Hoang Thi Hai Yen,3,D5-402,10,4,True,N59,True
-260,103825,Nguyen Thi Thu Trang,4,D35-201,3,1,True,ICT-K61C,True
-261,104468,Le Ba Vui,4,D5-204,5,1,True,KS HTTT-K59S,True
-262,104071,Pham Van Hai,4,D35-402,3,1,True,KSCLC-THCN HTTT&TT-K60S,True
-263,676138,Nguyen Hong Quang,5,D5-401,4,1,True,N203,True
-264,104397,Le Tan Hung,4,D5-302,7,1,True,Công nghệ thông tin-K61S,True
-265,103935,Pham Van Hai,3,D5-204,11,1,True,KSTN-CNTT-K60C,True
-266,676179,Nguyen Thi Oanh,3,D5-502,3,4,True,N03,True
-267,106365, Tran Trung Kien,4,D5-204,6,1,True,ĐK&TĐH-K62C,True
-268,104433,Tran Tuan Vinh,2,D5-405,11,5,True,KHMT-K60C,True
-269,104411,Dinh Viet Sang,3,D5-204,11,4,True,Công nghệ thông tin-K61S,False
-270,676167,Nguyen Hong Phuong,5,D5-305,8,1,True,N216,True
-271,103936,Tran Dinh Khang,4,D5-401,2,1,True,KSTN-CNTT-K60S,True
-272,676671,Nguyen Duc Tien,3,D5-102,3,1,True,CTTT-ĐTVT-HTĐ-TĐH,True
-273,679622,Nguyen Thi Thanh Nga,3,D5-203,1,4,True,KSTN K62,True
-274,103730,Nguyen Huu Duc,4,D5-202,4,1,True,VN-K62C,True
-275,103972,Nguyen Duy Hiep,3,D5-204,10,1,True,KSTN-CNTT-K61C,True
-276,676225,Nguyen Ngoc Dung,3,D5-401,7,1,True,N49,True
-277,676169,Dao Thanh Chung,4,D35-402,11,1,True,N188,True
-278,676353,Ngo Lam Trung,3,D5-103,5,1,True,N177,True
-279,676300,Le Duc Trung,3,D35-402,4,1,True,N124,True
-280,676223,Huynh Quyet Thang,3,D35-501,8,1,True,N47,True
-281,676309,Nguyen Nhat Quang,3,D5-303,8,4,True,N133,True
-282,104081,Nguyen Hong Quang,3,D5-505,1,1,True,KSCLC-HTTT&TT-K60S,True
-283,103731,Tran Vinh Duc,4,D5-402,3,1,True,VN-K62C,True
-284,676343,Do Tuan Anh,3,D5-401,11,1,True,N167,True
-285,104470,Nguyen Huu Duc,2,D5-402,7,5,True,KS HTTT-K59S,True
-286,676330,Vu Thi Huong Giang,3,D5-201,2,4,True,N154,True
-287,676239,Nguyen Ba Ngoc,3,D5-503,5,4,True,N63,True
-288,104093,Nguyen Van Thuan,4,D5-105,9,1,True,KSCLC-HTTT&TT-K61C,True
-289,103732,Pham Dang Hai,4,D35-302,10,1,True,VN-K62C,True
-290,103827,Trinh Tuan Dat,2,D5-105,3,5,True,ICT-K61S,True
-291,676227,Bui Quoc Anh,3,D5-203,5,1,True,N51,True
-292,104052,Pham Quang Dung,3,D5-303,7,4,True,KSCLC-HTTT&TT-K59C,True
-293,104444,Nguyen Ba Ngoc,4,D5-202,3,1,True,CNPM-K60C,True
-294,103814,Tran Tuan Vinh,4,D5-203,9,1,True,ICT-K62C,True
-295,103905,Nguyen Tuan Dung,3,D35-502,2,4,True,KSTN-CNTT-K59C,True
-296,676319,Le Tan Hung,3,D35-401,9,4,True,N143,True
-297,676311,Bui Quoc Anh,3,D35-202,1,1,True,N135,True
-298,103778,Nguyen Thi Thu Trang,4,D35-401,11,1,True,VN-2-K60C,True
-299,676208,Tran Vinh Duc,3,D35-502,7,4,True,N32,True
-300,104402,Nguyen Huu nam Duong,3,D35-401,8,4,True,Công nghệ thông tin-K61S,True
-301,103902,Do Tuan Anh,4,D5-404,6,1,True,KSTN-CNTT-K59C,True
-302,104440,Nguyen Kim Khanh,3,D5-405,5,4,True,HTTT-K60C,True
-303,104422,Nguyen Phu Binh,3,D35-202,4,1,True,KT Máy tính & TT-K61C,True
-304,676355,Nguyen Duc Nghia,3,D5-504,5,1,True,N179,True
-305,103815,Le Thanh Huong,2,D35-302,3,5,True,ICT-K62S,True
-306,676331,Le Duc Trung,3,D5-302,5,1,True,N155,True
-307,103753,Nguyen Thanh Kien,4,D35-201,11,1,True,VN-2-K61S,True
-308,104420,Trinh Van Loan,2,D5-404,11,5,True,Công nghệ thông tin-K61C,True
-309,676304,Nguyen Thi Thu Huong,3,D35-401,9,1,True,N128,True
-310,104417,Nguyen Thanh Kien,4,D35-402,6,1,True,Công nghệ thông tin-K61S,True
-311,676176,Ngo Lam Trung,5,D35-201,4,1,True,N186,True
-312,103836,Nguyen Phu Binh,2,D35-502,10,5,True,ICT-K61S,True
-313,103970,Tran Vinh Duc,4,D5-501,5,1,True,KSTN-CNTT-K61C,True
-314,104406,Vu Thi Huong Giang,3,D5-301,10,4,True,Công nghệ thông tin-K61S,True
-315,104469,Vu Thi Huong Giang,4,D5-401,3,1,True,KS HTTT-K59S,True
-316,676148,NGuyen DInh Thuan,5,D5-203,2,1,True,N194,True
-317,104499,Tran Viet Trung,3,D5-101,2,4,True,KS TT&MMT-K59S,True
-318,103848,Do Phan Thuan,2,D5-503,6,5,True,ICT-K59C,True
-319,104435,Nguyen Kim Anh,3,D5-403,8,4,True,KHMT-K60C,True
-320,104492,Hoang Thi Hai Yen,3,D5-301,3,4,True,ATTT-K59S,True
-321,104452,Nguyen Khanh Phuong,2,D5-501,4,5,True,ATTT-K60C,True
-322,676280,Pham Van Hai,3,D5-401,1,4,True,N104,True
-323,676329,Nguyen Binh Minh,3,D5-505,6,4,True,N153,True
-324,104483,Tran Tuan Vinh,2,D5-505,4,5,True,KS KTPM-K59S,True
-325,676297,Le Thanh Huong,3,D5-101,1,4,True,N121,True
-326,104429,Nguyen Thi Thu Huong,4,D5-402,5,1,True,Công nghệ thông tin-K60C,True
-327,103968,Nguyen Hong Phuong,2,D5-505,11,5,True,KSTN-CNTT-K61C,True
-328,676158,Ngo Tuan Phong,3,D5-402,2,1,True,KSTN K62,True
-329,103831,Pham Ngoc Hung,4,D5-402,9,1,True,ICT-K61C,True
-330,676243,Ngo Tuan Phong,3,D5-504,8,4,True,N67,True
-331,676363,Le Xuan Thanh,5,D5-402,11,1,True,N198,True
-332,676294,Ngo Van Linh,3,D35-502,6,1,True,N118,True
-333,676293,Nguyen Thanh Kien,3,D35-302,9,4,True,N117,True
-334,676143,Do Ba Lam,5,D35-502,3,1,True,N189,True
-335,676228,Nguyen Ngoc Duong,3,D5-203,5,4,True,N52,True
-336,676296,Trinh Van Loan,3,D5-405,1,1,True,N120,True
-337,104403,Nguyen Binh Minh,3,D5-105,4,1,True,Công nghệ thông tin-K61S,True
-338,676323,Dinh Viet Sang,3,D5-205,1,1,True,N147,True
-339,104467,Trinh Anh Phuc,4,D5-204,4,1,True,KS HTTT-K59S,True
-340,679501,Ngo Lam Trung,3,D5-101,2,1,True,Thuật toán - Hợp tác Samsung (Lớp 1),True
-341,103837,Nguyen Duc Tien,2,D5-205,7,5,True,ICT-K60C,True
-342,104514,Nguyen Thanh Trung,3,D35-301,5,4,True,CN CNTT&TT-K61S,True
-343,676286,Nguyen Khanh Van,3,D5-302,4,4,True,N110,True
-344,676197,Nguyen Ngoc Dung,3,D5-102,7,4,True,N21,True
-345,103971,Nguyen Phu Binh,3,D5-502,2,1,True,KSTN-CNTT-K61C,True
-346,676202,Tran Vinh Duc,3,D35-501,11,4,True,N26,True
-347,676365,Huynh Quyet Thang,5,D5-304,7,1,True,N200,True
-348,676182,Nguyen Kiem Hieu,3,D5-302,10,4,True,N06,True
-349,104481,Vu Tuyet Trinh,3,D35-501,6,1,True,KS KTPM-K59S,True
-350,105102,Ngo Van Linh,4,D35-501,4,1,True,ĐTVT-K62C,True
-351,676283,Nguyen Thi Thanh Nga,3,D5-202,11,4,True,N107,True
-352,676359,Nguyen Khanh Van,3,D35-401,5,1,True,N183,True
-353,676180,Nguyen Van Thuan,3,D35-502,11,1,True,N04,True
-354,676211,Trinh Thanh Trung,3,D35-501,11,1,True,N35,True
-355,676307,Ban Ha Bang,3,D5-302,5,4,True,N131,True
-356,104452,Nguyen Duc Nghia,2,D5-203,9,5,True,ATTT-K60C,True
-357,676345,Ngo Van Linh,3,D5-204,2,1,True,N169,True
-358,676267,Nguyen Thi Thanh Nga,3,D5-505,10,4,True,N91,True
-359,104424,Nguyen Kim Anh,4,D5-404,11,1,True,KT Máy tính & TT-K61S,True
-360,676289,Nguyen Tuan Dung,3,D35-502,8,1,True,N113,True
-361,104498,Ngo Tuan Phong,3,D5-104,7,4,True,KS TT&MMT-K59S,True
-362,104365,Do Phan Thuan,4,D5-504,3,1,True,"KHMT-K62C,CNTT 1-K62C",True
-363,676335,Nguyen Ngoc Duong,3,D5-301,11,1,True,N159,True
-364,676237,Do Quoc Huy,3,D5-503,1,1,True,N61,True
-365,104060,Dao Thanh Chung,3,D5-102,7,1,True,KSCLC-HTTT&TT-K59C,True
-366,676360,Nguyen Duc Nghia,5,D5-302,3,1,True,N195,True
-367,105874,Nguyen Khanh Van,4,D5-503,11,1,True,KQ1-K62C,True
-368,676144,Dao Thanh Chung,5,D5-503,10,1,True,N190,True
-369,676250,Cao Tuan Dung,3,D5-504,5,4,True,N74,True
-370,676199,Nguyen Nhat Quang,3,D5-101,4,4,True,N23,True
-371,103938,Nguyen Ba Ngoc,4,D5-402,7,1,True,KSTN-CĐT-K60S,True
-372,103734,Nguyen Ba Ngoc,4,D5-104,8,1,True,VN-K62C,True
-373,104393,Do Quoc Huy,2,D5-501,5,5,True,KTMT-K62C,True
-374,104512,Nguyen Nhat Quang,2,D5-503,9,5,True,CN CNTT&TT-K61S,True
-375,676185,Ngo Tuan Phong,3,D5-201,3,1,True,N09,True
-376,104351,Pham Quang Dung,4,D5-501,1,1,True,KHMT-K62C,True
-377,676191,Ngo Van Linh,3,D5-104,10,1,True,N15,True
-378,104171,Vu Duc Vuong,3,D5-501,8,1,True,TT.ĐTVT-TT.HTĐTĐH-K62S,True
-379,104405,Do Phan Thuan,3,D5-501,11,1,True,Công nghệ thông tin-K61S,True
-380,676295,Nguyen Kim Khanh,3,D5-205,2,4,True,N119,True
-381,676277,Nguyen Duy Hiep,3,D5-403,2,4,True,N101,True
-382,104421,Nguyen Huu Duc,3,D5-201,9,4,True,Công nghệ thông tin-K61C,True
-383,103751,Trinh Thanh Trung,2,D5-103,4,5,True,VN-K61S,True
-384,104475,Ngo Duy Hoa,2,D5-305,1,5,True,KS KTPM-K59S,True
-385,104394,Cao Tuan Dung,4,D5-303,4,1,True,KTMT-K62C,True
-386,676337,Nguyen Kim Anh,3,D35-401,2,4,True,N161,True
-387,676238,Le Thanh Huong,3,D35-302,11,4,True,N62,True
-388,676346,Nguyen Tuan Dung,3,D5-302,8,4,True,N170,True
-389,676269,Nguyen Kiem Hieu,3,D5-503,1,4,True,N93,True
-390,104378,Nguyen Viet Huy,2,D5-204,3,5,True,CNTT-K62C,True
-391,676264,Nguyen Tuan Dung,3,D5-201,1,4,True,N88,True
-392,676200,Tran Viet Trung,3,D5-402,8,4,True,N24,True
-393,104500,Vu Tuyet Trinh,2,D5-402,9,5,True,KS KHMT-K59S,True
-394,676247,La The Vinh,3,D5-404,7,4,True,N71,True
-395,105393,Do Phan Thuan,4,D5-304,5,1,True,"VLKT-K62C,KTHN-K62C",True
-396,676252,Trinh Anh Phuc,3,D35-401,10,1,True,N76,True
-397,103770,Nguyen Duc Tien,4,D35-302,1,1,True,VN(AS)-K60S,True
-398,676181,Huynh Quyet Thang,3,D35-201,2,4,True,N05,True
-399,676288,Trinh Thanh Trung,3,D5-302,4,1,True,N112,True
-400,676165,Nguyen Thi Oanh,5,D35-502,5,1,True,N214,True
-401,103829,Trinh Van Loan,2,D35-501,4,5,True,ICT-K61S,True
-402,676152,Tran Dinh Khang,5,D5-205,11,1,True,N206,True
-403,104493,Dao Thanh Chung,4,D5-305,9,1,True,KTMT&TT-K59S,True
-404,104447,Le Tan Hung,2,D5-402,3,5,True,CNPM-K60C,True
-405,676258,Nguyen Duc Nghia,3,D5-304,4,4,True,N82,True
-406,104425,Pham Ngoc Hung,2,D5-504,11,5,True,KT Máy tính & TT-K61S,True
-407,676299,Nguyen Thi Thanh Nga,3,D5-303,8,1,True,N123,True
-408,104483,Le Duc Trung,2,D5-201,11,5,True,KS KTPM-K59S,True
-409,676298,Ngo Lam Trung,3,D5-301,11,4,True,N122,True
-410,676272,Le Xuan Thanh,3,D5-405,9,4,True,N96,True
-411,676351,Ngo Tuan Phong,3,D5-402,6,1,True,N175,True
-412,676312,Hoang Thi Hai Yen,3,D35-302,9,1,True,N136,True
-413,676242,Ngo Duy Hoa,3,D5-202,7,4,True,N66,True
-414,103793,Le Ba Vui,2,D5-502,4,5,True,VN-K59S,True
-415,104790,Cao Tuan Dung,4,D5-103,7,1,True,CN Cơ điện tử-K61C,True
-416,104433,Nguyen Huu Duc,2,D35-502,4,5,True,KHMT-K60C,True
-417,104400,Nguyen Hong Phuong,2,D5-101,9,5,True,Công nghệ thông tin-K61S,True
-418,103937,Tran Viet Trung,3,D5-301,3,1,True,KSTN-CĐT-K60S,True
-419,104206,Nguyen Viet Huy,4,D5-403,9,1,True,NNA-K62S,True
-420,676268,Pham Ngoc Hung,3,D5-303,5,1,True,N92,True
-421,676270,Nguyen Thi Thu Trang,3,D5-301,1,4,True,N94,True
-422,104485,Nguyen Thanh Kien,3,D5-403,8,1,True,ATTT-K59S,True
-423,104457,NGuyen DInh Thuan,3,D5-304,1,1,True,"KTMT,TTMMT-K60C",True
-424,104495,Nguyen Thi Oanh,4,D5-205,7,1,True,KTMT&TT-K59S,True
-425,676275,Nguyen Khanh Phuong,3,D5-201,2,1,True,N99,True
-426,676672,Huynh Thi Thanh Binh,3,D5-302,2,4,True,CTTT-ĐTVT-HTĐ-TĐH,True
-427,676271,Pham Quang Dung,3,D5-102,11,4,True,N95,True
-428,676261, Tran Trung Kien,3,D5-404,7,1,True,N85,True
-429,676186,Pham Ngoc Hung,3,D5-201,3,4,True,N10,True
-430,104474,Trinh Tuan Dat,2,D5-204,9,5,True,KS HTTT-K59S,True
-431,104580,Pham Dang Hai,4,D5-204,3,1,True,CK-K62S,True
-432,676230,Nguyen Ngoc Duong,3,D5-301,1,1,True,N54,True
-433,676325,Nguyen Thi Oanh,3,D35-502,8,4,True,N149,True
-434,104442,Vu Duc Vuong,4,D5-103,4,1,True,HTTT-K60C,True
-435,104474,Nguyen Phu Binh,2,D5-203,11,5,True,KS HTTT-K59S,True
-436,103736,Nguyen Hong Quang,2,D5-405,6,1,True,VN-K62C,True
-437,676285,Tran Viet Trung,3,D5-203,1,1,True,N109,True
-438,104434,Trinh Anh Phuc,3,D35-202,8,1,True,KHMT-K60C,True
-439,104083,Nguyen Phi Le,2,D5-101,5,5,True,KSCLC-HTTT&TT-K60S,True
-440,103934,Nguyen Thanh Trung,3,D5-102,10,1,True,KSTN-CNTT-K60S,True
-441,676316,Nguyen Huu Duc,3,D5-202,6,1,True,N140,True
-442,676212,Do Ba Lam,3,D35-502,7,1,True,N36,True
-443,676157,Bui Quoc Anh,3,D5-504,7,1,True,KSTN K62,True
-444,676198,Pham Van Hai,3,D5-504,4,4,True,N22,True
-445,676348,Do thi Thu Trang,3,D35-301,3,1,True,N172,True
-446,103757,Le Tan Hung,4,D5-503,4,1,True,VN-3-K61C,True
-447,104458,Vu Duc Vuong,4,D5-201,7,1,True,KTMT-K60C,True
-448,676306,Nguyen Duy Hiep,3,D5-101,1,1,True,N130,True
-449,676246,Le Tan Hung,3,D5-101,11,1,True,N70,True
-450,104792,Nguyen Duy Hiep,4,D5-505,11,1,True,CN Cơ điện tử-K61C,True
-451,676217,Nguyen Thanh Kien,3,D5-403,7,4,True,N41,True
-452,676367,Dao Thanh Chung,5,D5-401,6,1,True,N202,True
-453,104507,Nguyen Duc Tien,3,D5-401,8,1,True,CN CNTT&TT-K61S,True
-454,104059,Nguyen Thanh Trung,3,D35-501,1,1,True,KSCLC-HTTT&TT-K59C,True
-455,104466,Trinh Thanh Trung,3,D35-202,3,1,True,TTMMT-K60C,True
-456,676257,Tran Dinh Khang,3,D5-304,4,1,True,N81,True
-457,676224,Nguyen Thi Thu Trang,3,D35-501,8,4,True,N48,True
-458,104439,Le Duc Trung,3,D5-505,6,1,True,HTTT-K60C,True
-459,676333,Pham Dang Hai,3,D5-504,1,4,True,N157,True
-460,676347,Vu Tuyet Trinh,3,D5-201,4,1,True,N171,True
-461,676234,Nguyen Duy Hiep,3,D5-305,2,1,True,N58,True
-462,676203,Nguyen Huu nam Duong,3,D35-302,2,4,True,N27,True
-463,103843,Vu Thi Huong Giang,4,D5-103,9,1,True,ICT-K60S,True
-464,104791,Do Ba Lam,2,D5-104,8,5,True,CN Cơ điện tử-K61C,True
-465,104500,Le Thanh Huong,2,D5-304,2,5,True,KS KHMT-K59S,True
-466,104517,Nguyen Duy Hiep,4,D5-501,6,1,True,CK.CĐT-K62S,True
-467,103841,Do thi Thu Trang,2,D35-402,10,5,True,ICT-K60C,True
-468,676350,La The Vinh,3,D5-204,2,4,True,N174,True
-469,676209,NGuyen DInh Thuan,3,D5-204,10,4,True,N33,True
-470,104352,Tran Dinh Khang,2,D35-302,10,5,True,KHMT-K62C,True
-471,104428,Nguyen Thanh Hung,4,D5-502,9,1,True,KT Máy tính & TT-K61S,True
-472,676231,Pham Dang Hai,3,D5-502,5,1,True,N55,True
-473,104963,Nguyen Phu Binh,4,D5-503,9,1,True,ĐK&TĐH-K62C,True
-474,676290,Tran Viet Trung,3,D35-401,2,1,True,N114,True
-475,676341,Than Quang Khoat,3,D5-205,3,4,True,N165,True
-476,679501,Pham Ngoc Hung,3,D5-303,6,1,True,Thuật toán - Hợp tác Samsung (Lớp 1),True
-477,103769,Nguyen Duc Tien,2,D35-501,3,5,True,VN(AS)-K60S,True
-478,676262,Pham Quang Dung,3,D5-205,10,4,True,N86,True
-479,676156,Do thi Thu Trang,3,D35-301,1,1,True,KSTN K62,True
-480,104506,Do thi Thu Trang,3,D5-301,10,1,True,CN CNTT&TT-K61S,True
-481,103853,Pham Quang Dung,3,D5-203,4,4,True,ICT-K59C,True
-482,676188,Do Quoc Huy,3,D5-402,2,4,True,N12,True
-483,676171,Nguyen Khanh Phuong,5,D5-405,3,1,True,N209,True
-484,104052,Pham Dang Hai,3,D35-202,8,4,True,KSCLC-HTTT&TT-K59C,True
-485,103785,Trinh Anh Phuc,2,D5-402,1,5,True,VN(IS)-K59S,True
-486,104478,Nguyen Ba Ngoc,3,D5-504,9,4,True,KS KTPM-K59S,True
-487,676178,Nguyen Kim Anh,3,D5-502,3,1,True,N02,True
-488,676260,Le Ba Vui,3,D5-205,10,1,True,N84,True
-489,104465,Le Xuan Thanh,3,D5-103,10,4,True,TTMMT-K60C,True
-490,103729,Dinh Viet Sang,4,D5-101,9,1,True,VN-K62C,True
-491,104425,Le Tan Hung,2,D5-401,2,5,True,KT Máy tính & TT-K61S,True
-492,676206,Nguyen Khanh Van,3,D5-102,9,4,True,N30,True
-493,104413,Nguyen Ngoc Dung,3,D5-504,2,1,True,Công nghệ thông tin-K61S,True
-494,103780,Do Tuan Anh,4,D5-501,4,1,True,VN-K60C,True
-495,676153, Tran Trung Kien,3,D5-403,11,4,True,KSTN K62,True
-496,104072,Ban Ha Bang,4,D5-104,2,1,True,KSCLC-THCN HTTT&TT-K60S,True
-497,103787,Nguyen Kim Khanh,2,D5-103,9,5,True,VN(AS)-K59S,True
-498,103931,Nguyen Phi Le,4,D5-104,5,1,True,KSTN-CNTT-K60S,True
-499,104489,Huynh Thi Thanh Binh,3,D5-405,9,1,True,ATTT-K59S,True
-500,676251,Nguyen Nhat Quang,3,D5-102,3,4,True,N75,True
-501,103733,Do Tuan Anh,2,D5-304,5,5,True,VN-K62C,True
-502,104414,Ban Ha Bang,3,D35-401,8,1,True,Công nghệ thông tin-K61S,True
+,ML,Giang Vien,So Tiet,Phong,Buoi,Tiet Bat Dau,Fit of Giang Vien,Lop Sinh Vien,Fit of Sinh Vien,HP
+0,679502,Nguyen Thi Thu Trang,6,D5-504,4,1,True,Thuật toán - Hợp tác Samsung (Lớp 2),True,IT3120
+1,676360,Nguyen Duc Nghia,5,D5-201,1,1,True,N195,True,IT1110
+2,676166,Nguyen Thi Oanh,5,D5-204,11,1,True,N215,True,IT1110
+3,676151,Pham Quang Dung,5,D5-503,2,1,True,N205,True,IT1110
+4,676144,Dao Thanh Chung,5,D5-103,7,1,True,N190,True,IT1110
+5,676152,Tran Dinh Khang,5,D5-502,3,1,True,N206,True,IT1110
+6,676142,Pham Van Hai,5,D5-302,8,1,True,N213,True,IT1110
+7,676362,Nguyen Binh Minh,5,D5-501,9,1,True,N197,True,IT1110
+8,676172,Bui Quoc Anh,5,D5-403,10,1,True,N210,True,IT1110
+9,676146,Nguyen Duy Hiep,5,D5-104,6,1,True,N192,True,IT1110
+10,676140,Dao Thanh Chung,5,D5-405,1,1,True,N207,True,IT1110
+11,676364,Nguyen Ba Ngoc,5,D5-404,6,1,True,N199,True,IT1110
+12,676173,Nguyen Thanh Hung,5,D5-403,6,1,True,N211,True,IT1110
+13,676149,Nguyen Huu Duc,5,D5-101,5,1,True,N195,True,IT1110
+14,676148,NGuyen DInh Thuan,5,D5-503,6,1,True,N194,True,IT1110
+15,676139,Nguyen Duc Tien,5,D5-402,3,1,True,N204,True,IT1110
+16,676147,Nguyen Kiem Hieu,5,D5-201,2,1,True,N193,True,IT1110
+17,676367,Dao Thanh Chung,5,D35-301,5,1,True,N202,True,IT1110
+18,676145,Nguyen Kim Anh,5,D5-304,2,1,True,N191,True,IT1110
+19,676363,Le Xuan Thanh,5,D35-402,8,1,True,N198,True,IT1110
+20,676170,Ngo Duy Hoa,5,D35-401,10,1,True,N208,True,IT1110
+21,676365,Huynh Quyet Thang,5,D5-303,1,1,True,N200,True,IT1110
+22,676171,Nguyen Khanh Phuong,5,D35-301,1,1,True,N209,True,IT1110
+23,676141,Le Duc Trung,5,D35-202,11,1,True,N212,True,IT1110
+24,676361,Vu Tuyet Trinh,5,D5-203,9,1,True,N196,True,IT1110
+25,676174,La The Vinh,5,D5-305,1,1,True,N184,True,IT1110
+26,676138,Nguyen Hong Quang,5,D5-203,7,1,True,N203,True,IT1110
+27,676167,Nguyen Hong Phuong,5,D5-304,8,1,True,N216,True,IT1110
+28,676165,Nguyen Thi Oanh,5,D35-502,2,1,True,N214,True,IT1110
+29,676366,Huynh Thi Thanh Binh,5,D35-301,8,1,True,N201,True,IT1110
+30,676143,Do Ba Lam,5,D35-201,2,1,True,N189,True,IT1110
+31,676175,Trinh Thanh Trung,5,D5-503,9,1,True,N185,True,IT4888
+32,676176,Ngo Lam Trung,5,D35-401,6,1,True,N186,True,IT1110
+33,103778,Nguyen Thi Thu Trang,4,D5-203,6,1,True,VN-2-K60C,True,IT4450
+34,105858,Nguyen Ngoc Duong,4,D5-104,4,1,True,"QTKD-K62C,Kế toán-K62C,TCNH-K62C",True,IT3292
+35,104410,Nguyen Van Thuan,4,D5-305,11,1,True,Công nghệ thông tin-K61S,True,IT1110
+36,104408,Huynh Quyet Thang,4,D5-403,4,1,True,Công nghệ thông tin-K61S,True,IT4409
+37,104419,Trinh Van Loan,4,D5-103,4,1,True,ATTT-K61C,True,IT4470
+38,104432,Nguyen Thi Thu Huong,4,D5-404,5,1,True,KHMT-K60C,True,IT1110
+39,103734,Nguyen Ba Ngoc,4,D35-402,4,1,True,VN-K62C,True,IT1110
+40,103779,Nguyen Viet Huy,4,D5-203,11,1,True,VN-1-K60C,True,IT3120
+41,676168,Nguyen Thi Thu Huong,4,D5-102,1,1,True,N187,True,IT1110
+42,104014,Le Xuan Thanh,4,D5-402,2,1,True,KSTN-CNTT-K62S,True,IT1110
+43,103826,Nguyen Huu nam Duong,4,D5-105,1,1,True,ICT-K61C,True,IT4492
+44,104399,Do Ba Lam,4,D5-305,7,1,True,Công nghệ thông tin-K61S,True,IT4132E
+45,103933,Nguyen Viet Huy,4,D5-105,4,1,True,KSTN-CNTT-K60S,True,IT4160
+46,103838,Nguyen Nhat Quang,4,D35-201,11,1,True,ICT-K60C,True,IT4263
+47,104450,NGuyen DInh Thuan,4,D5-405,5,1,True,ATTT-K60C,True,IT4262E
+48,104397,Le Tan Hung,4,D35-402,6,1,True,Công nghệ thông tin-K61S,True,IT1110
+49,104427,Vu Tuyet Trinh,4,D5-304,10,1,True,KT Máy tính & TT-K61S,True,IT4152
+50,104424,Nguyen Kim Anh,4,D5-201,5,1,True,KT Máy tính & TT-K61S,True,IT1110
+51,103970,Tran Vinh Duc,4,D35-401,3,1,True,KSTN-CNTT-K61C,True,IT4132
+52,103931,Nguyen Phi Le,4,D5-303,11,1,True,KSTN-CNTT-K60S,True,IT3110
+53,104079,Than Quang Khoat,4,D5-203,1,1,True,KSCLC-HTTT&TT-K60S,True,IT4110
+54,104792,Nguyen Duy Hiep,4,D5-204,5,1,True,CN Cơ điện tử-K61C,True,IT1110
+55,104206,Nguyen Viet Huy,4,D35-302,7,1,True,NNA-K62S,True,IT1110
+56,104790,Cao Tuan Dung,4,D35-501,9,1,True,CN Cơ điện tử-K61C,True,IT4262
+57,105874,Nguyen Khanh Van,4,D35-502,9,1,True,KQ1-K62C,True,IT4220
+58,103830,Do Ba Lam,4,D5-302,4,1,True,ICT-K61S,True,IT1110
+59,104428,Nguyen Thanh Hung,4,D35-402,9,1,True,KT Máy tính & TT-K61S,True,IT1110
+60,104093,Nguyen Van Thuan,4,D5-301,7,1,True,KSCLC-HTTT&TT-K61C,True,IT1110
+61,676169,Dao Thanh Chung,4,D5-303,9,1,True,N188,True,IT4053
+62,104394,Cao Tuan Dung,4,D5-201,6,1,True,KTMT-K62C,True,IT3210
+63,104379,Dinh Viet Sang,4,D35-501,1,1,True,CNTT-K62C,True,IT4152E
+64,104365,Do Phan Thuan,4,D5-501,2,1,True,"KHMT-K62C,CNTT 1-K62C",True,IT1110
+65,104458,Vu Duc Vuong,4,D5-303,10,1,True,KTMT-K60C,True,IT3110
+66,104417,Nguyen Thanh Kien,4,D5-305,6,1,True,Công nghệ thông tin-K61S,True,IT1110
+67,104072,Ban Ha Bang,4,D5-301,8,1,True,KSCLC-THCN HTTT&TT-K60S,True,IT1110
+68,103813,Than Quang Khoat,4,D5-301,10,1,True,ICT-K62C,True,IT3250E
+69,103759,Nguyen Phi Le,4,D5-403,9,1,True,VN-1-K61C,True,IT3133
+70,103757,Le Tan Hung,4,D5-105,2,1,True,VN-3-K61C,True,IT4060
+71,103902,Do Tuan Anh,4,D35-202,6,1,True,KSTN-CNTT-K59C,True,IT4220
+72,103753,Nguyen Thanh Kien,4,D5-402,1,1,True,VN-2-K61S,True,IT4212E
+73,103752,Nguyen Ngoc Dung,4,D5-204,4,1,True,VN-3-K61S,True,IT4212
+74,103758,Nguyen Van Thuan,4,D35-401,5,1,True,VN-2-K61C,True,IT1110
+75,103969,Nguyen Hong Quang,4,D5-103,1,1,True,KSTN-CNTT-K61C,True,IT1110
+76,103754,Dinh Viet Sang,4,D5-302,9,1,True,VN-1-K61S,True,IT1110
+77,103831,Pham Ngoc Hung,4,D5-205,3,1,True,ICT-K61C,True,IT3110
+78,103814,Tran Tuan Vinh,4,D5-101,2,1,True,ICT-K62C,True,IT1110
+79,103756,Nguyen Thi Oanh,4,D5-404,10,1,True,VN-4-K61C,True,IT3110
+80,104401,NGuyen DInh Thuan,4,D5-102,3,1,True,Công nghệ thông tin-K61S,True,IT4110
+81,104438,Le Xuan Thanh,4,D5-303,4,1,True,HTTT-K60C,True,IT4362
+82,104963,Nguyen Phu Binh,4,D35-202,2,1,True,ĐK&TĐH-K62C,True,IT1110
+83,103730,Nguyen Huu Duc,4,D5-202,11,1,True,VN-K62C,True,IT1110
+84,104946,Huynh Thi Thanh Binh,4,D5-104,11,1,True,"KT Điện, ĐK&TĐH 1,2-K62C",True,IT1110
+85,105126,La The Vinh,4,D5-401,5,1,True,ĐTVT-K62C,True,IT3100
+86,104490,Nguyen Thi Thanh Nga,4,D5-305,4,1,True,ATTT-K59S,True,IT1110
+87,103731,Tran Vinh Duc,4,D35-401,8,1,True,VN-K62C,True,IT1110
+88,103938,Nguyen Ba Ngoc,4,D35-201,7,1,True,KSTN-CĐT-K60S,True,IT1110
+89,104455,Do Ba Lam,4,D5-201,11,1,True,ATTT-K60C,True,IT1110
+90,104392,La The Vinh,4,D35-401,4,1,True,KTMT-K62C,True,IT1110
+91,104538,Nguyen Khanh Phuong,4,D5-204,6,1,True,CK.CĐT-K62S,True,IT1110
+92,104559,Nguyen Kim Khanh,4,D5-105,5,1,True,CK-K62S,True,IT1110
+93,104580,Pham Dang Hai,4,D35-301,9,1,True,CK-K62S,True,IT1110
+94,103825,Nguyen Thi Thu Trang,4,D5-203,2,1,True,ICT-K61C,True,IT1110
+95,104051,Ngo Tuan Phong,4,D5-503,1,1,True,KSCLC-HTTT&TT-K59C,True,IT1110
+96,104430,Vu Duc Vuong,4,D5-501,11,1,True,Công nghệ thông tin-K60C,True,IT1110
+97,104486,Nguyen Tuan Dung,4,D5-105,10,1,True,ATTT-K59S,True,IT1110
+98,105114,Nguyen Hong Quang,4,D5-502,2,1,True,ĐTVT-K62C,True,IT1110
+99,103780,Do Tuan Anh,4,D5-401,10,1,True,VN-K60C,True,IT1110
+100,103842,Trinh Thanh Trung,4,D35-501,10,1,True,ICT-K60C,True,IT1110
+101,104071,Pham Van Hai,4,D5-303,7,1,True,KSCLC-THCN HTTT&TT-K60S,True,IT1110
+102,103732,Pham Dang Hai,4,D5-505,4,1,True,VN-K62C,True,IT1110
+103,104471,Nguyen Duc Tien,4,D5-101,1,1,True,KS HTTT-K59S,True,IT1110
+104,103729,Dinh Viet Sang,4,D5-205,2,1,True,VN-K62C,True,IT1110
+105,105102,Ngo Van Linh,4,D5-205,10,1,True,ĐTVT-K62C,True,IT1110
+106,105357,Do Quoc Huy,4,D35-402,11,1,True,"Toán-tin-K62C,HTTT quản lý-K62C",True,IT1110
+107,104929,Cao Tuan Dung,4,D5-303,8,1,True,KT Điện-K62C,True,IT1110
+108,105393,Do Phan Thuan,4,D35-501,11,1,True,"VLKT-K62C,KTHN-K62C",True,IT1110
+109,103936,Tran Dinh Khang,4,D5-504,6,1,True,KSTN-CNTT-K60S,True,IT1110
+110,104467,Trinh Anh Phuc,4,D5-401,3,1,True,KS HTTT-K59S,True,IT1110
+111,104493,Dao Thanh Chung,4,D5-504,2,1,True,KTMT&TT-K59S,True,IT1110
+112,104468,Le Ba Vui,4,D5-504,10,1,True,KS HTTT-K59S,True,IT1110
+113,104429,Nguyen Thi Thu Huong,4,D5-204,10,1,True,Công nghệ thông tin-K60C,True,IT1110
+114,106365, Tran Trung Kien,4,D35-401,2,1,True,ĐK&TĐH-K62C,True,IT1110
+115,104469,Vu Thi Huong Giang,4,D35-201,3,1,True,KS HTTT-K59S,True,IT1110
+116,104517,Nguyen Duy Hiep,4,D5-403,11,1,True,CK.CĐT-K62S,True,IT1110
+117,103781,Nguyen Thanh Hung,4,D35-301,2,1,True,VN-K60C,True,IT1110
+118,104442,Vu Duc Vuong,4,D5-505,6,1,True,HTTT-K60C,True,IT1110
+119,104009,Ngo Duy Hoa,4,D35-201,4,1,True,KSTN-K62S,True,IT1110
+120,104495,Nguyen Thi Oanh,4,D5-404,8,1,True,KTMT&TT-K59S,True,IT1130
+121,104477,Nguyen Phi Le,4,D35-401,1,1,True,KS KTPM-K59S,True,IT1110
+122,103843,Vu Thi Huong Giang,4,D35-501,4,1,True,ICT-K60S,True,IT1110
+123,103764,Pham Ngoc Hung,4,D35-301,10,1,True,VN(IS)-K60S,True,IT1110
+124,104601,Tran Viet Trung,4,D5-303,2,1,True,CK-K62S,True,IT1110
+125,103765,Cao Tuan Dung,4,D35-201,5,1,True,VN(IS)-K60S,True,IT1110
+126,104444,Nguyen Ba Ngoc,4,D5-203,8,1,True,CNPM-K60C,True,IT1110
+127,103770,Nguyen Duc Tien,4,D5-202,9,1,True,VN(AS)-K60S,True,IT1110
+128,104443, Tran Trung Kien,4,D5-305,9,1,True,CNPM-K60C,True,IT1110
+129,104482,Tran Vinh Duc,4,D5-205,7,1,True,KS KTPM-K59S,True,IT1110
+130,104351,Pham Quang Dung,4,D5-301,4,1,True,KHMT-K62C,True,IT1110
+131,104094,Tran Dinh Khang,3,D5-502,4,1,True,KSCLC-HTTT&TT-K61C,True,IT1110
+132,104492,Hoang Thi Hai Yen,3,D5-502,4,4,True,ATTT-K59S,True,IT1110
+133,103937,Tran Viet Trung,3,D5-502,6,4,True,KSTN-CĐT-K60S,True,IT4684
+134,104480,Tran Tuan Vinh,3,D5-502,11,1,True,KS KTPM-K59C,True,IT4898
+135,104481,Vu Tuyet Trinh,3,D5-302,3,1,True,KS KTPM-K59S,True,IT1110
+136,104142,Nguyen Van Thuan,3,D5-302,3,4,True,CTTT-CĐT-K60S,True,IT1110
+137,104456,Pham Van Hai,3,D5-204,1,1,True,"ATTT,TTMMT-K60C",True,IT4312
+138,103973,Ban Ha Bang,3,D5-501,7,1,True,KSTN-CNTT-K61C,True,IT4240
+139,104415,Nguyen Thanh Hung,3,D5-402,5,1,True,Công nghệ thông tin-K61S,True,IT1016
+140,104472,Nguyen Phi Le,3,D5-402,5,4,True,KS HTTT-K59S,True,IT3322E
+141,104081,Nguyen Hong Quang,3,D5-403,5,1,True,KSCLC-HTTT&TT-K60S,True,IT1110
+142,104473,Trinh Tuan Dat,3,D35-501,6,1,True,KS HTTT-K59S,True,IT4867
+143,104479,Trinh Tuan Dat,3,D5-204,9,1,True,KS KTPM-K59S,True,IT4895
+144,104087,Bui Quoc Anh,3,D5-204,9,4,True,KSCLC-THCN HTTT&TT-K61C,True,IT3680
+145,103971,Nguyen Phu Binh,3,D5-101,4,1,True,KSTN-CNTT-K61C,True,IT4945
+146,104498,Ngo Tuan Phong,3,D5-101,4,4,True,KS TT&MMT-K59S,True,IT4924
+147,104405,Do Phan Thuan,3,D35-302,1,1,True,Công nghệ thông tin-K61S,True,IT1110
+148,104478,Nguyen Ba Ngoc,3,D5-101,10,4,True,KS KTPM-K59S,True,IT1110
+149,103972,Nguyen Duy Hiep,3,D35-502,10,1,True,KSTN-CNTT-K61C,True,IT3270
+150,104503,Tran Dinh Khang,3,D35-502,10,4,True,KS KHMT-K59S,True,IT4756
+151,104182,Hoang Thi Hai Yen,3,D5-202,2,1,True,TT.CĐT-TT.KTVL-K62C,True,IT4263
+152,104423,Do Tuan Anh,3,D5-202,2,4,True,KT Máy tính & TT-K61S,True,IT4853
+153,104402,Nguyen Huu nam Duong,3,D5-104,10,1,True,Công nghệ thông tin-K61S,True,IT4210
+154,104414,Ban Ha Bang,3,D5-205,9,4,True,Công nghệ thông tin-K61S,True,IT4094
+155,104403,Nguyen Binh Minh,3,D5-304,1,4,True,Công nghệ thông tin-K61S,True,IT4851
+156,104421,Nguyen Huu Duc,3,D5-101,7,1,True,Công nghệ thông tin-K61C,True,IT1110
+157,105590,Trinh Van Loan,3,D5-103,2,1,True,KTIn -K62S,True,IT4408
+158,104406,Vu Thi Huong Giang,3,D5-204,2,1,True,Công nghệ thông tin-K61S,True,IT1016
+159,104506,Do thi Thu Trang,3,D5-503,10,1,True,CN CNTT&TT-K61S,True,IT4130
+160,676357,Nguyen Hong Quang,3,D5-105,6,4,True,N181,True,IT3290
+161,676259,Pham Ngoc Hung,3,D5-202,5,1,True,N83,True,IT4272
+162,676268,Pham Ngoc Hung,3,D5-302,7,4,True,N92,True,IT4272E
+163,104090,Le Ba Vui,3,D35-401,7,1,True,"KSCLC-THCN, HTTT&TT-K61C",True,IT4887
+164,104156,Nguyen Thi Thanh Nga,3,D35-401,7,4,True,CTTT-Cơ điện tử-K61S,True,IT1110
+165,104418,Nguyen Kim Khanh,3,D5-405,11,1,True,ATTT-K61S,True,IT4263
+166,103845,Vu Duc Vuong,3,D5-202,1,1,True,ICT-K60C,True,IT4142E
+167,104413,Nguyen Ngoc Dung,3,D35-201,8,1,True,Công nghệ thông tin-K61S,True,IT4080
+168,103901,Nguyen Binh Minh,3,D5-205,11,4,True,KSTN-CNTT-K59C,True,IT4290
+169,103935,Pham Van Hai,3,D5-302,11,1,True,KSTN-CNTT-K60C,True,IT1110
+170,104499,Tran Viet Trung,3,D5-302,11,4,True,KS TT&MMT-K59S,True,IT4090
+171,104052,Pham Quang Dung,3,D5-103,11,1,True,KSCLC-HTTT&TT-K59C,True,IT4094
+172,676359,Nguyen Khanh Van,3,D5-104,1,1,True,N183,True,IT1110
+173,104446,Trinh Van Loan,3,D5-502,6,1,True,CNPM-K60C,True,IT4541
+174,104448,Le Thanh Huong,3,D5-304,4,1,True,CNPM-K60C,True,IT4520
+175,103903,Huynh Quyet Thang,3,D35-302,5,1,True,KSTN-CNTT-K59C,True,IT4520
+176,104449,Vu Tuyet Trinh,3,D35-302,5,4,True,CNPM-K60C,True,IT4501
+177,104461,Trinh Anh Phuc,3,D5-204,1,4,True,KTMT-K60C,True,IT4210
+178,104494,Le Xuan Thanh,3,D5-501,7,4,True,KTMT&TT-K59S,True,IT4778
+179,104459,Nguyen Binh Minh,3,D5-305,2,1,True,KTMT-K60C,True,IT1016
+180,104412,Nguyen Thi Thu Huong,3,D5-305,2,4,True,Công nghệ thông tin-K61S,True,IT3680
+181,104052,Pham Dang Hai,3,D5-305,5,1,True,KSCLC-HTTT&TT-K59C,True,IT1016
+182,104434,Trinh Anh Phuc,3,D5-305,5,4,True,KHMT-K60C,True,IT1110
+183,104435,Nguyen Kim Anh,3,D5-402,6,1,True,KHMT-K60C,True,IT4810
+184,104411,Dinh Viet Sang,3,D5-402,6,4,True,Công nghệ thông tin-K61S,True,IT1110
+185,103934,Nguyen Thanh Trung,3,D5-104,8,1,True,KSTN-CNTT-K60S,True,IT1110
+186,104460,Ngo Van Linh,3,D5-104,8,4,True,KTMT-K60C,True,IT4290
+187,104058,Nguyen Nhat Quang,3,D35-302,3,4,True,KSCLC-HTTT&TT-K59C,True,IT1110
+188,104060,Dao Thanh Chung,3,D5-102,8,4,True,KSCLC-HTTT&TT-K59C,True,IT4304
+189,104514,Nguyen Thanh Trung,3,D5-305,3,1,True,CN CNTT&TT-K61S,True,IT4408
+190,104484,La The Vinh,3,D35-201,6,4,True,ATTT-K59S,True,IT4403
+191,104436,Nguyen Phi Le,3,D5-302,2,1,True,HTTT-K60C,True,IT4409
+192,104439,Le Duc Trung,3,D5-104,3,1,True,HTTT-K60C,True,IT1110
+193,104511,Le Thanh Huong,3,D5-304,1,1,True,CN CNTT&TT-K61S,True,IT1110
+194,104465,Le Xuan Thanh,3,D35-201,10,1,True,TTMMT-K60C,True,IT4260
+195,104502,Tran Viet Trung,3,D5-101,8,1,True,KS KHMT-K59S,True,IT4766
+196,104453,Do Phan Thuan,3,D5-101,8,4,True,ATTT-K60C,True,IT4690
+197,104504,Than Quang Khoat,3,D5-405,2,4,True,CN CNTT&TT-K61S,True,IT3600
+198,104505,Nguyen Hong Phuong,3,D35-401,11,4,True,CN CNTT&TT-K61S,True,IT3600
+199,103853,Pham Quang Dung,3,D5-405,9,4,True,ICT-K59C,True,IT4342E
+200,104501, Tran Trung Kien,3,D5-301,11,1,True,KS KHMT-K59S,True,IT4779
+201,676150,Nguyen Khanh Van,3,D35-502,7,4,True,N204,True,IT4408
+202,104485,Nguyen Thanh Kien,3,D5-302,2,4,True,ATTT-K59S,True,IT3260E
+203,676244,La The Vinh,3,D5-202,8,1,True,N68,True,IT3094
+204,104404,Hoang Thi Hai Yen,3,D5-401,9,1,True,Công nghệ thông tin-K61S,True,IT3270E
+205,676232,Ngo Lam Trung,3,D5-405,2,1,True,N56,True,IT4542
+206,676271,Pham Quang Dung,3,D5-401,1,4,True,N95,True,IT1110
+207,676241,Nguyen Duc Tien,3,D5-402,4,1,True,N65,True,IT4592
+208,676269,Nguyen Kiem Hieu,3,D5-402,4,4,True,N93,True,IT3104
+209,676237,Do Quoc Huy,3,D5-405,4,4,True,N61,True,IT4040
+210,104508,Dinh Viet Sang,3,D5-401,8,4,True,CN CNTT&TT-K61S,True,IT4866
+211,676234,Nguyen Duy Hiep,3,D5-503,7,4,True,N58,True,IT3020
+212,104080,Nguyen Ngoc Dung,3,D5-503,8,4,True,KSCLC-HTTT&TT-K60S,True,IT4910
+213,679501,Pham Ngoc Hung,3,D5-203,4,1,True,Thuật toán - Hợp tác Samsung (Lớp 1),True,IT1110
+214,104431,Do thi Thu Trang,3,D5-203,4,4,True,KHMT-K60C,True,IT4883
+215,104510,Nguyen Ngoc Dung,3,D5-404,11,1,True,CN CNTT&TT-K61S,True,IT4251
+216,104464,Pham Dang Hai,3,D5-404,11,4,True,TTMMT-K60C,True,IT4681
+217,104496,Nguyen Viet Huy,3,D5-203,10,1,True,KS TT&MMT-K59S,True,IT4670
+218,103932,Dinh Viet Sang,3,D5-203,10,4,True,KSTN-CNTT-K60S,True,IT1110
+219,104457,NGuyen DInh Thuan,3,D5-504,1,1,True,"KTMT,TTMMT-K60C",True,IT4492E
+220,679501,Ngo Lam Trung,3,D35-301,4,4,True,Thuật toán - Hợp tác Samsung (Lớp 1),True,IT4080
+221,104463,Nguyen Kiem Hieu,3,D5-303,5,1,True,TTMMT-K60C,True,IT1110
+222,104497,Le Ba Vui,3,D5-303,5,4,True,KS TT&MMT-K59S,True,IT4700
+223,676221,Do Quoc Huy,3,D5-401,1,1,True,N45,True,IT4810
+224,676240,Le Thanh Huong,3,D35-401,11,1,True,N64,True,IT1110
+225,676235,Hoang Thi Hai Yen,3,D35-302,3,1,True,N59,True,IT4551
+226,104462,Nguyen Hong Phuong,3,D5-201,4,1,True,TTMMT-K60C,True,IT4610
+227,676220,Nguyen Thi Thu Huong,3,D5-202,7,1,True,N44,True,IT3230
+228,104422,Nguyen Phu Binh,3,D5-202,7,4,True,KT Máy tính & TT-K61C,True,IT4852
+229,676239,Nguyen Ba Ngoc,3,D5-205,9,1,True,N63,True,IT3620
+230,103904,Do thi Thu Trang,3,D5-104,10,4,True,KSTN-CNTT-K59C,True,IT4680
+231,676222,Nguyen Thanh Trung,3,D35-301,11,1,True,N46,True,IT4069
+232,676242,Ngo Duy Hoa,3,D35-301,11,4,True,N66,True,IT3250
+233,676236,Pham Ngoc Hung,3,D5-103,9,1,True,N60,True,IT1130
+234,104059,Nguyen Thanh Trung,3,D5-103,9,4,True,KSCLC-HTTT&TT-K59C,True,IT1110
+235,676238,Le Thanh Huong,3,D5-102,8,1,True,N62,True,IT4551
+236,676358,Nguyen Duc Nghia,3,D5-102,9,1,True,N182,True,IT3230
+237,676218,Huynh Quyet Thang,3,D35-502,6,1,True,N42,True,IT4865
+238,104466,Trinh Thanh Trung,3,D5-502,8,4,True,TTMMT-K60C,True,IT4650
+239,104509,Nguyen Phi Le,3,D5-202,6,1,True,CN CNTT&TT-K61S,True,IT3270E
+240,676231,Pham Dang Hai,3,D5-202,6,4,True,N55,True,IT4868
+241,104171,Vu Duc Vuong,3,D35-502,5,1,True,TT.ĐTVT-TT.HTĐTĐH-K62S,True,IT3680
+242,676264,Nguyen Tuan Dung,3,D35-502,5,4,True,N88,True,IT1110
+243,676265,Than Quang Khoat,3,D5-302,7,1,True,N89,True,IT3020
+244,676266,Nguyen Kiem Hieu,3,D5-202,5,4,True,N90,True,IT1110
+245,676229,Huynh Quyet Thang,3,D5-402,11,1,True,N53,True,IT4772
+246,676228,Nguyen Ngoc Duong,3,D5-102,9,4,True,N52,True,IT3080
+247,676227,Bui Quoc Anh,3,D35-202,9,1,True,N51,True,IT4530
+248,676226,Nguyen Khanh Phuong,3,D5-102,5,4,True,N50,True,IT1110
+249,676225,Nguyen Ngoc Dung,3,D5-103,11,4,True,N49,True,IT4013
+250,676224,Nguyen Thi Thu Trang,3,D5-104,1,4,True,N48,True,IT4040
+251,676223,Huynh Quyet Thang,3,D5-402,7,1,True,N47,True,IT1110
+252,676245,Nguyen Khanh Phuong,3,D5-402,7,4,True,N69,True,IT4062
+253,676246,Le Tan Hung,3,D5-304,4,4,True,N70,True,IT1130
+254,676247,La The Vinh,3,D5-502,11,4,True,N71,True,IT4160
+255,676261, Tran Trung Kien,3,D5-301,11,4,True,N85,True,IT3220
+256,676272,Le Xuan Thanh,3,D5-104,3,4,True,N96,True,IT4490
+257,104489,Huynh Thi Thanh Binh,3,D5-504,9,1,True,ATTT-K59S,True,IT4630
+258,676243,Ngo Tuan Phong,3,D5-504,9,4,True,N67,True,IT4050
+259,676233,Nguyen Viet Huy,3,D5-201,9,1,True,N57,True,IT3402
+260,103905,Nguyen Tuan Dung,3,D5-201,9,4,True,KSTN-CNTT-K59C,True,IT1110
+261,676257,Tran Dinh Khang,3,D5-104,9,1,True,N81,True,IT1110
+262,676263,Nguyen Ba Ngoc,3,D5-104,9,4,True,N87,True,IT3010
+263,676262,Pham Quang Dung,3,D5-502,9,1,True,N86,True,IT3034
+264,676260,Le Ba Vui,3,D5-502,9,4,True,N84,True,IT3270
+265,676267,Nguyen Thi Thanh Nga,3,D35-302,9,1,True,N91,True,IT3020
+266,676248,Nguyen Van Thuan,3,D35-302,9,4,True,N72,True,IT4542E
+267,676258,Nguyen Duc Nghia,3,D5-203,3,1,True,N82,True,IT1110
+268,676256,Nguyen Phu Binh,3,D5-203,3,4,True,N80,True,IT4652E
+269,676230,Nguyen Ngoc Duong,3,D5-404,2,1,True,N54,True,IT3080
+270,676255,Nguyen Huu Duc,3,D5-404,2,4,True,N79,True,IT3270
+271,676254,Than Quang Khoat,3,D5-102,5,1,True,N78,True,IT3080
+272,104507,Nguyen Duc Tien,3,D5-301,2,1,True,CN CNTT&TT-K61S,True,IT4069
+273,104440,Nguyen Kim Khanh,3,D5-104,7,4,True,HTTT-K60C,True,IT4361
+274,104426,Nguyen Hong Phuong,3,D5-202,1,4,True,KT Máy tính & TT-K61S,True,IT4681
+275,676270,Nguyen Thi Thu Trang,3,D5-204,7,1,True,N94,True,IT3030
+276,676252,Trinh Anh Phuc,3,D5-204,7,4,True,N76,True,IT4069
+277,676310, Tran Trung Kien,3,D35-201,10,4,True,N134,True,IT4069
+278,676250,Cao Tuan Dung,3,D5-101,7,4,True,N74,True,IT1110
+279,676183,Nguyen Thi Thu Trang,3,D5-504,8,1,True,N07,True,IT1110
+280,676182,Nguyen Kiem Hieu,3,D5-504,8,4,True,N06,True,IT4480
+281,676181,Huynh Quyet Thang,3,D5-304,9,1,True,N05,True,IT1110
+282,676249,Nguyen Huu nam Duong,3,D5-304,9,4,True,N73,True,IT3100
+283,676219,Nguyen Van Thuan,3,D5-102,10,1,True,N43,True,IT1110
+284,676217,Nguyen Thanh Kien,3,D5-102,10,4,True,N41,True,IT1110
+285,676274,Ngo Van Linh,3,D35-502,1,1,True,N98,True,IT3087
+286,676216,Bui Quoc Anh,3,D35-502,1,4,True,N40,True,IT3084
+287,676187,Bui Quoc Anh,3,D35-302,8,1,True,N11,True,IT1110
+288,676186,Pham Ngoc Hung,3,D35-302,8,4,True,N10,True,IT3080
+289,676185,Ngo Tuan Phong,3,D35-402,10,1,True,N09,True,IT3080
+290,676184,Nguyen Duc Nghia,3,D35-402,10,4,True,N08,True,IT1130
+291,676180,Nguyen Van Thuan,3,D5-201,3,1,True,N04,True,IT3020
+292,676179,Nguyen Thi Oanh,3,D5-201,3,4,True,N03,True,IT1110
+293,676178,Nguyen Kim Anh,3,D5-305,10,1,True,N02,True,IT1110
+294,676671,Nguyen Duc Tien,3,D5-305,10,4,True,CTTT-ĐTVT-HTĐ-TĐH,True,IT3062
+295,679579,Le Duc Trung,3,D35-301,4,1,True,CTTT-ĐTVT-HTĐ-TĐH,True,IT4069
+296,676672,Huynh Thi Thanh Binh,3,D5-504,1,4,True,CTTT-ĐTVT-HTĐ-TĐH,True,IT4810
+297,676156,Do thi Thu Trang,3,D35-501,5,1,True,KSTN K62,True,IT4069
+298,676159, Tran Trung Kien,3,D35-501,5,4,True,KSTN K62,True,IT1110
+299,676155,Trinh Thanh Trung,3,D5-505,7,1,True,KSTN K62,True,IT3600
+300,676154,Do thi Thu Trang,3,D5-305,3,4,True,KSTN K62,True,IT3600
+301,676153, Tran Trung Kien,3,D35-502,4,1,True,KSTN K62,True,IT1110
+302,679581,Nguyen Huu nam Duong,3,D35-502,4,4,True,CTTT-CĐT-KTVL,True,IT1130
+303,679580,Nguyen Thanh Trung,3,D5-201,7,1,True,CTTT-ĐTVT-HTĐ-TĐH,True,IT3020
+304,676321,Tran Dinh Khang,3,D5-201,7,4,True,N145,True,IT1130
+305,676177,Nguyen Binh Minh,3,D35-201,6,1,True,N01,True,IT3053
+306,676204,Ban Ha Bang,3,D5-505,7,4,True,N28,True,IT4944
+307,676670,Ngo Duy Hoa,3,D35-202,9,4,True,CTTT-CĐT-KTVL,True,IT1130
+308,676669,Hoang Thi Hai Yen,3,D5-301,2,4,True,CTTT-CĐT-KTVL,True,IT3053
+309,676188,Do Quoc Huy,3,D5-104,2,1,True,N12,True,IT4680
+310,676189,Pham Van Hai,3,D5-104,2,4,True,N13,True,IT1130
+311,676190,Ngo Lam Trung,3,D5-104,7,1,True,N14,True,IT4160
+312,676158,Ngo Tuan Phong,3,D5-405,11,4,True,KSTN K62,True,IT3230
+313,676215,Huynh Thi Thanh Binh,3,D5-404,3,1,True,N39,True,IT3061
+314,676323,Dinh Viet Sang,3,D5-404,3,4,True,N147,True,IT3040
+315,676214,Do Tuan Anh,3,D5-102,11,1,True,N38,True,IT1130
+316,676198,Pham Van Hai,3,D5-102,11,4,True,N22,True,IT1130
+317,676211,Trinh Thanh Trung,3,D5-503,4,1,True,N35,True,IT1130
+318,676201,Nguyen Khanh Van,3,D5-503,4,4,True,N25,True,IT1130
+319,676196,Do Quoc Huy,3,D5-404,4,1,True,N20,True,IT3010
+320,676199,Nguyen Nhat Quang,3,D5-404,4,4,True,N23,True,IT1110
+321,676194,Nguyen Kiem Hieu,3,D5-404,9,1,True,N18,True,IT3020
+322,676197,Nguyen Ngoc Dung,3,D5-404,9,4,True,N21,True,IT1130
+323,676210,Nguyen Binh Minh,3,D35-302,10,1,True,N34,True,IT3014
+324,676208,Tran Vinh Duc,3,D35-302,10,4,True,N32,True,IT3024
+325,676212,Do Ba Lam,3,D5-304,5,1,True,N36,True,IT3020
+326,676206,Nguyen Khanh Van,3,D5-304,5,4,True,N30,True,IT1110
+327,676209,NGuyen DInh Thuan,3,D35-301,7,1,True,N33,True,IT1110
+328,676205,Nguyen Tuan Dung,3,D35-301,7,4,True,N29,True,IT1110
+329,676207,Nguyen Hong Phuong,3,D5-405,6,1,True,N31,True,IT1110
+330,676203,Nguyen Huu nam Duong,3,D5-405,6,4,True,N27,True,IT3312
+331,676191,Ngo Van Linh,3,D5-502,5,1,True,N15,True,IT4364
+332,676202,Tran Vinh Duc,3,D5-502,5,4,True,N26,True,IT1110
+333,676275,Nguyen Khanh Phuong,3,D5-201,10,1,True,N99,True,IT2130
+334,676200,Tran Viet Trung,3,D5-201,10,4,True,N24,True,IT3016
+335,676195,Nguyen Phu Binh,3,D5-403,8,1,True,N19,True,IT1130
+336,676355,Nguyen Duc Nghia,3,D5-403,8,4,True,N179,True,IT4450
+337,676354,Vu Thi Huong Giang,3,D5-105,6,1,True,N178,True,IT1110
+338,676353,Ngo Lam Trung,3,D5-503,10,4,True,N177,True,IT1130
+339,676192,Nguyen Hong Quang,3,D5-502,10,1,True,N16,True,IT1110
+340,676273,Cao Tuan Dung,3,D5-502,10,4,True,N97,True,IT1130
+341,676253,Trinh Anh Phuc,3,D35-501,7,1,True,N77,True,IT1130
+342,676330,Vu Thi Huong Giang,3,D35-501,7,4,True,N154,True,IT1130
+343,676276,Do Tuan Anh,3,D5-503,7,1,True,N100,True,IT1110
+344,676327,Bui Quoc Anh,3,D35-502,7,1,True,N151,True,IT1130
+345,676326,Nguyen Thi Thanh Nga,3,D5-403,5,4,True,N150,True,IT3020
+346,676325,Nguyen Thi Oanh,3,D35-501,6,4,True,N149,True,IT1130
+347,676324,Nguyen Ngoc Dung,3,D5-301,1,1,True,N148,True,IT1016
+348,676322,Do Phan Thuan,3,D5-301,1,4,True,N146,True,IT3020
+349,676213,Pham Quang Dung,3,D35-402,7,1,True,N37,True,IT1130
+350,676157,Bui Quoc Anh,3,D35-402,7,4,True,KSTN K62,True,IT4844
+351,676328,Nguyen Thanh Kien,3,D5-505,11,1,True,N152,True,IT1130
+352,676301,Cao Tuan Dung,3,D5-505,11,4,True,N125,True,IT3022E
+353,676294,Ngo Van Linh,3,D5-105,11,1,True,N118,True,IT1110
+354,676317,Nguyen Thi Thanh Nga,3,D5-105,11,4,True,N141,True,IT1110
+355,676316,Nguyen Huu Duc,3,D35-201,9,1,True,N140,True,IT3620
+356,676315,Nguyen Khanh Phuong,3,D35-201,9,4,True,N139,True,IT3600
+357,676314,Trinh Tuan Dat,3,D5-501,3,1,True,N138,True,IT1110
+358,676313,Ngo Lam Trung,3,D5-501,3,4,True,N137,True,IT4079
+359,676309,Nguyen Nhat Quang,3,D5-302,1,1,True,N133,True,IT4552
+360,676308,Pham Dang Hai,3,D5-302,1,4,True,N132,True,IT1110
+361,676307,Ban Ha Bang,3,D5-302,6,1,True,N131,True,IT1016
+362,676331,Le Duc Trung,3,D5-302,6,4,True,N155,True,IT4024
+363,676333,Pham Dang Hai,3,D5-205,1,1,True,N157,True,IT1110
+364,676305,Nguyen Van Thuan,3,D5-205,1,4,True,N129,True,IT1016
+365,676339,Le Ba Vui,3,D5-103,2,4,True,N163,True,IT4012
+366,676340,Nguyen Huu nam Duong,3,D5-204,2,4,True,N164,True,IT4680
+367,676341,Than Quang Khoat,3,D35-202,8,1,True,N165,True,IT1130
+368,676278,Nguyen Khanh Van,3,D35-202,8,4,True,N102,True,IT4030
+369,676292,Vu Tuyet Trinh,3,D5-201,4,4,True,N116,True,IT1110
+370,676282,Nguyen Thi Thu Huong,3,D5-402,11,4,True,N106,True,IT4440
+371,676318,Nguyen Thanh Hung,3,D35-201,1,1,True,N142,True,IT4480
+372,676345,Ngo Van Linh,3,D35-201,1,4,True,N169,True,IT1110
+373,676329,Nguyen Binh Minh,3,D5-502,8,1,True,N153,True,IT3036
+374,676193,Nguyen Kim Anh,3,D35-502,6,4,True,N17,True,IT1110
+375,676320,Huynh Thi Thanh Binh,3,D5-404,1,1,True,N144,True,IT3260
+376,676352,Trinh Van Loan,3,D5-404,1,4,True,N176,True,IT1110
+377,676351,Ngo Tuan Phong,3,D5-503,3,1,True,N175,True,IT1110
+378,676350,La The Vinh,3,D5-503,3,4,True,N174,True,IT1110
+379,676349,Ban Ha Bang,3,D5-405,9,1,True,N173,True,IT4069
+380,676348,Do thi Thu Trang,3,D5-503,8,1,True,N172,True,IT4843
+381,676347,Vu Tuyet Trinh,3,D5-405,4,1,True,N171,True,IT1110
+382,676346,Nguyen Tuan Dung,3,D5-401,8,1,True,N170,True,IT1110
+383,676344,Ngo Duy Hoa,3,D35-501,8,1,True,N168,True,IT4772
+384,676334,Nguyen Thanh Hung,3,D35-501,8,4,True,N158,True,IT4594
+385,676343,Do Tuan Anh,3,D5-401,2,1,True,N167,True,IT1110
+386,676342,Ngo Van Linh,3,D5-401,2,4,True,N166,True,IT4012E
+387,676338,Than Quang Khoat,3,D5-202,8,4,True,N162,True,IT4888
+388,679623,Do Ba Lam,3,D5-401,9,4,True,KSTN K62,True,IT4681
+389,676336,Do Quoc Huy,3,D5-102,7,1,True,N160,True,IT1110
+390,676296,Trinh Van Loan,3,D5-102,7,4,True,N120,True,IT3090
+391,676319,Le Tan Hung,3,D5-205,11,1,True,N143,True,IT4782
+392,676304,Nguyen Thi Thu Huong,3,D35-201,8,4,True,N128,True,IT3100
+393,676280,Pham Van Hai,3,D5-303,6,1,True,N104,True,IT3100
+394,676284,Nguyen Thanh Trung,3,D5-303,6,4,True,N108,True,IT3100
+395,679622,Nguyen Thi Thanh Nga,3,D5-303,3,1,True,KSTN K62,True,IT1110
+396,676299,Nguyen Thi Thanh Nga,3,D5-303,3,4,True,N123,True,IT3094
+397,676295,Nguyen Kim Khanh,3,D5-105,9,1,True,N119,True,IT1110
+398,676297,Le Thanh Huong,3,D5-105,9,4,True,N121,True,IT1110
+399,676303,Le Tan Hung,3,D5-105,8,1,True,N127,True,IT3090
+400,676337,Nguyen Kim Anh,3,D5-105,8,4,True,N161,True,IT3090
+401,676290,Tran Viet Trung,3,D5-202,10,1,True,N114,True,IT3090
+402,676356,Huynh Thi Thanh Binh,3,D5-202,10,4,True,N180,True,IT1110
+403,676300,Le Duc Trung,3,D5-101,10,1,True,N124,True,IT4730
+404,676332,Nguyen Ngoc Duong,3,D35-302,1,4,True,N156,True,IT1110
+405,676306,Nguyen Duy Hiep,3,D5-403,3,1,True,N130,True,IT3240E
+406,676285,Tran Viet Trung,3,D5-403,3,4,True,N109,True,IT1110
+407,676311,Bui Quoc Anh,3,D35-302,2,1,True,N135,True,IT1110
+408,676277,Nguyen Duy Hiep,3,D35-302,2,4,True,N101,True,IT4778
+409,676335,Nguyen Ngoc Duong,3,D35-302,11,1,True,N159,True,IT4320
+410,676302,NGuyen DInh Thuan,3,D35-302,11,4,True,N126,True,IT1130
+411,676289,Nguyen Tuan Dung,3,D35-401,9,1,True,N113,True,IT4944
+412,676281,Tran Vinh Duc,3,D35-401,9,4,True,N105,True,IT1110
+413,676286,Nguyen Khanh Van,3,D35-501,2,1,True,N110,True,IT4945
+414,676288,Trinh Thanh Trung,3,D35-501,2,4,True,N112,True,IT4042E
+415,676279,Ngo Duy Hoa,3,D35-202,5,1,True,N103,True,IT4040
+416,676251,Nguyen Nhat Quang,3,D35-202,5,4,True,N75,True,IT3220
+417,676283,Nguyen Thi Thanh Nga,3,D35-302,6,1,True,N107,True,IT1110
+418,676287,Nguyen Hong Phuong,3,D35-302,6,4,True,N111,True,IT1110
+419,676293,Nguyen Thanh Kien,3,D5-502,7,1,True,N117,True,IT1110
+420,676312,Hoang Thi Hai Yen,3,D5-502,7,4,True,N136,True,IT1110
+421,676298,Ngo Lam Trung,3,D5-304,11,1,True,N122,True,IT1110
+422,676291,Nguyen Thanh Kien,3,D5-304,11,4,True,N115,True,IT1110
+423,104420,Nguyen Kiem Hieu,2,D5-203,6,5,True,Công nghệ thông tin-K61C,True,IT1110
+424,103840,Nguyen Tuan Dung,2,D5-104,4,5,True,ICT-K60C,True,IT4859
+425,104420,Trinh Van Loan,2,D5-105,10,5,True,Công nghệ thông tin-K61C,True,IT3087
+426,104512,Nguyen Nhat Quang,2,D5-305,6,5,True,CN CNTT&TT-K61S,True,IT4789
+427,104409,Nguyen Thanh Trung,2,D5-304,10,5,True,Công nghệ thông tin-K61S,True,IT4859
+428,104512,Hoang Thi Hai Yen,2,D5-404,5,5,True,CN CNTT&TT-K61S,True,IT4935
+429,104364,Nguyen Duc Nghia,2,D35-302,7,5,True,KHMT-K62C,True,IT3600
+430,104500,Vu Tuyet Trinh,2,D5-203,11,5,True,KS KHMT-K59S,True,IT4552
+431,104470,Nguyen Huu Duc,2,D5-102,1,5,True,KS HTTT-K59S,True,IT3430
+432,104352,Trinh Tuan Dat,2,D35-201,3,5,True,KHMT-K62C,True,IT1110
+433,104441,Nguyen Huu nam Duong,2,D35-301,10,5,True,HTTT-K60C,True,IT4859
+434,104352,Tran Dinh Khang,2,D35-201,11,5,True,KHMT-K62C,True,IT3600
+435,104500,Le Thanh Huong,2,D5-105,4,5,True,KS KHMT-K59S,True,IT4868
+436,104398,NGuyen DInh Thuan,2,D5-301,7,5,True,Công nghệ thông tin-K61S,True,IT4859
+437,104398,Tran Tuan Vinh,2,D5-405,5,5,True,Công nghệ thông tin-K61S,True,IT3600
+438,104082,Tran Vinh Duc,2,D35-401,3,5,True,KSCLC-HTTT&TT-K60S,True,IT4408
+439,104409,Nguyen Ngoc Duong,2,D5-103,4,5,True,Công nghệ thông tin-K61S,True,IT4875
+440,104364,Do Phan Thuan,2,D5-201,5,5,True,KHMT-K62C,True,IT4210
+441,103766,Vu Thi Huong Giang,2,D5-501,11,5,True,VN(IS)-K60S,True,IT4785
+442,104487,Le Duc Trung,2,D5-102,3,5,True,ATTT-K59S,True,IT4062
+443,104475,Ngo Duy Hoa,2,D5-203,1,5,True,KS KTPM-K59S,True,IT4015
+444,104393,Nguyen Ngoc Duong,2,D5-204,5,5,True,KTMT-K62C,True,IT1110
+445,104474,Nguyen Phu Binh,2,D35-502,9,5,True,KS HTTT-K59S,True,IT1016
+446,104483,Le Duc Trung,2,D35-501,9,5,True,KS KTPM-K59S,True,IT3087
+447,104452,Nguyen Duc Nghia,2,D35-202,6,5,True,ATTT-K60C,True,IT4340
+448,104483,Tran Tuan Vinh,2,D5-302,4,5,True,KS KTPM-K59S,True,IT1130
+449,103968,Tran Tuan Vinh,2,D35-402,9,5,True,KSTN-CNTT-K61C,True,IT4592E
+450,103968,Nguyen Hong Phuong,2,D5-205,10,5,True,KSTN-CNTT-K61C,True,IT4069
+451,103841,Do thi Thu Trang,2,D5-503,1,5,True,ICT-K60C,True,IT4876
+452,103827,Trinh Tuan Dat,2,D5-201,6,5,True,ICT-K61S,True,IT4789
+453,104378,Nguyen Viet Huy,2,D35-501,1,5,True,CNTT-K62C,True,IT3087
+454,104378,Trinh Anh Phuc,2,D5-501,2,5,True,CNTT-K62C,True,IT1110
+455,104433,Tran Tuan Vinh,2,D5-303,10,5,True,KHMT-K60C,True,IT3090
+456,104474,Trinh Tuan Dat,2,D5-204,10,5,True,KS HTTT-K59S,True,IT4190
+457,104400,Nguyen Kim Khanh,2,D5-301,8,5,True,Công nghệ thông tin-K61S,True,IT3600
+458,104433,Nguyen Huu Duc,2,D5-303,11,5,True,KHMT-K60C,True,IT4174
+459,103849,Nguyen Viet Huy,2,D5-403,9,5,True,ICT-K59S,True,IT4230
+460,103815,Le Thanh Huong,2,D5-105,2,5,True,ICT-K62S,True,IT1110
+461,103837,Nguyen Duc Tien,2,D5-105,5,5,True,ICT-K60C,True,IT4341
+462,103852,Nguyen Thanh Hung,2,D5-402,1,5,True,ICT-K59C,True,IT4652
+463,104393,Do Quoc Huy,2,D5-401,5,5,True,KTMT-K62C,True,IT1110
+464,104437,Vu Duc Vuong,2,D35-401,5,5,True,HTTT-K60C,True,IT1110
+465,103782,Nguyen Kim Anh,2,D5-103,1,5,True,VN-K60C,True,IT4371
+466,103785,Trinh Anh Phuc,2,D5-401,3,5,True,VN(IS)-K59S,True,IT3090
+467,104083,Nguyen Phi Le,2,D5-303,7,5,True,KSCLC-HTTT&TT-K60S,True,IT3230
+468,104083,NGuyen DInh Thuan,2,D5-403,4,5,True,KSCLC-HTTT&TT-K60S,True,IT4661
+469,103787,Nguyen Kim Khanh,2,D5-303,9,5,True,VN(AS)-K59S,True,IT4364
+470,103836,Nguyen Phu Binh,2,D5-301,10,5,True,ICT-K61S,True,IT4090
+471,103783,Nguyen Kim Khanh,2,D5-303,4,5,True,VN(IS)-K59S,True,IT4160
+472,103768,Nguyen Ba Ngoc,2,D35-202,2,5,True,VN(AS)-K60S,True,IT1110
+473,103755,Le Xuan Thanh,2,D35-501,10,5,True,VN-K61S,True,IT4080
+474,104452,Nguyen Khanh Phuong,2,D5-104,11,5,True,ATTT-K60C,True,IT1110
+475,104451,Le Xuan Thanh,2,D5-204,4,5,True,ATTT-K60C,True,IT1016
+476,104437,Trinh Tuan Dat,2,D35-301,2,5,True,HTTT-K60C,True,IT4614
+477,103751,Trinh Thanh Trung,2,D5-305,11,5,True,VN-K61S,True,IT4424
+478,103839, Tran Trung Kien,2,D35-201,7,5,True,ICT-K60C,True,IT3094
+479,103829,Trinh Van Loan,2,D5-201,11,5,True,ICT-K61S,True,IT4080
+480,103767,Dao Thanh Chung,2,D35-401,4,5,True,VN(IS)-K60C,True,IT1110
+481,103844,Ngo Tuan Phong,2,D5-204,6,5,True,ICT-K60C,True,IT3270
+482,104445,Tran Dinh Khang,2,D35-402,4,5,True,CNPM-K60C,True,IT1110
+483,103784,Nguyen Thi Oanh,2,D5-504,10,5,True,VN(IS)-K59S,True,IT1110
+484,104791,Nguyen Nhat Quang,2,D5-203,2,5,True,CN Cơ điện tử-K61C,True,IT4752
+485,104425,Pham Ngoc Hung,2,D5-404,10,5,True,KT Máy tính & TT-K61S,True,IT1110
+486,104425,Le Tan Hung,2,D35-501,11,5,True,KT Máy tính & TT-K61S,True,IT1110
+487,103850,Vu Thi Huong Giang,2,D5-505,4,5,True,ICT-K59C,True,IT3020
+488,103846,Ban Ha Bang,2,D5-502,2,5,True,ICT-K59C,True,IT3290
+489,103793,Le Ba Vui,2,D5-401,10,5,True,VN-K59S,True,IT3090
+490,104791,Do Ba Lam,2,D5-303,8,5,True,CN Cơ điện tử-K61C,True,IT4074
+491,104400,Nguyen Hong Phuong,2,D5-205,3,5,True,Công nghệ thông tin-K61S,True,IT4805
+492,104447,Tran Tuan Vinh,2,D35-401,8,5,True,CNPM-K60C,True,IT3240E
+493,103786,Tran Viet Trung,2,D5-101,1,5,True,VN(AS)-K59S,True,IT4160
+494,104447,Le Tan Hung,2,D5-205,2,5,True,CNPM-K60C,True,IT4040
+495,103848,Do Phan Thuan,2,D5-505,6,5,True,ICT-K59C,True,IT1130
+496,103788,Vu Duc Vuong,2,D35-402,11,5,True,VN(AS)-K59S,True,IT4182E
+497,103851,Tran Vinh Duc,2,D5-202,11,5,True,ICT-K59C,True,IT3290
+498,103733,Do Tuan Anh,2,D35-401,1,5,True,VN-K62C,True,IT4089
+499,103769,Nguyen Duc Tien,2,D5-504,6,5,True,VN(AS)-K60S,True,IT4815
+500,103736,Nguyen Hong Quang,2,D5-302,9,5,True,VN-K62C,True,IT4310
+501,104470,Nguyen Thi Thu Trang,2,D5-504,2,5,True,KS HTTT-K59S,True,IT1110

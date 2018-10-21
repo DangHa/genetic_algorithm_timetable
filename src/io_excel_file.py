@@ -29,7 +29,7 @@ def read_ML(fileDir):
 #           "Phong Hoc", "Buoi Thu May", "Tiet bat dau",
 #           "Fit Giang Vien"]
 def write_file(data, outputFile):
-    columns = ['ML', 'Giang Vien', 'So Tiet', 'Phong', 'Buoi', 'Tiet Bat Dau', 'Fit of Giang Vien', 'Lop Sinh Vien', 'Fit of Sinh Vien']
+    columns = ['ML', 'Giang Vien', 'So Tiet', 'Phong', 'Buoi', 'Tiet Bat Dau', 'Fit of Giang Vien', 'Lop Sinh Vien', 'Fit of Sinh Vien', 'HP']
     df = pandas.DataFrame(data, columns=columns)
     df.to_csv(outputFile)
 

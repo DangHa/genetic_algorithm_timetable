@@ -138,7 +138,7 @@ def the_fit_of_one(temp_timetable):
                         temp2[6] = False
 
             # check whether timetable has same class and block
-            if temp1[7] == temp2[7] and temp1[4] == temp2[4]:
+            if temp1[7] == temp2[7] and temp1[4] == temp2[4] and temp1[9] != temp2[9]:
                 # check whether have same period
                 if temp1[5] < temp2[5]:
                     if temp1[5]+temp1[2] > temp2[5]:
