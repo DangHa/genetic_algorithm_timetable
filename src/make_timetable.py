@@ -82,6 +82,7 @@ def improve_timetable(selectedTimeTable, fit):
                 
     return result
 
+# all teacher names
 def all_teacher(selectedTimeTable):
     result = []
 
