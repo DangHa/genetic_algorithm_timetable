@@ -2,9 +2,9 @@ import random, math
 import make_timetable
 
 NumberOfInit = 10   # Initialization
-NumberOfParent = 2  # Crossover
+NumberOfParent = 3  # Crossover
 # Fit score
-FitOfTeacher = 10
+FitOfTeacher = 2
 FitOfStudent = 1
 
 def generic_algorithm (inputML, inputRoom, NumberOfLoop):
@@ -12,7 +12,9 @@ def generic_algorithm (inputML, inputRoom, NumberOfLoop):
 
     # ---  Initialization ---
     # Create N init element timetable
-    temp_timetables = initialization(inputML, inputRoom, NumberOfInit)
+    init = initialization(inputML, inputRoom, NumberOfInit)
+    temp_timetables = init[0]
+    room = init[1]
 
     # Begin the evolution
     for i in range(0, NumberOfLoop):
@@ -23,6 +25,7 @@ def generic_algorithm (inputML, inputRoom, NumberOfLoop):
 
         # get the best result of this round
         result = temp_timetables[fit.index(min(fit))].copy()
+        # print(result)
         if min(fit) == 0: #have already had the result
             break 
 
@@ -31,14 +34,14 @@ def generic_algorithm (inputML, inputRoom, NumberOfLoop):
         print(fit)
 
         # --- Crossover ---
-        crossover(fit, temp_timetables, NumberOfParent)
+        crossover(fit, temp_timetables, NumberOfParent, room)
 
         # --- Mutation ---
         # if the teacher time is suitable -> dont mutation
         bestTable = temp_timetables[fit.index(min(fit))]
         for i in range(0, len(bestTable)):
             if bestTable[i][6] == False:
-                mutation(fit, temp_timetables, inputML, inputRoom)
+                mutation(fit, temp_timetables, inputML, inputRoom, room)
                 break
         
 
@@ -60,7 +63,7 @@ def selection(fit, temp_timetables):
 
 # select 2 best fit 
 # create (2) new crossovers by each itself and create 1 new crossover by both
-def crossover(fit, temp_timetables, NumberOfParent):
+def crossover(fit, temp_timetables, NumberOfParent, room):
     print("-- Crossover --")
     tempFit = fit.copy()
 
@@ -69,14 +72,14 @@ def crossover(fit, temp_timetables, NumberOfParent):
         maxElem = tempFit.index(min(tempFit))
         tempFit[maxElem] = math.inf
 
-        improveTimeTable = make_timetable.improve_timetable(temp_timetables[maxElem], fit)
+        improveTimeTable = make_timetable.improve_timetable(temp_timetables[maxElem], fit, room[maxElem])
         temp_timetables.append(improveTimeTable)
 
     # create 1 new crossover by both
 
 # max mutation: create N new random temporary timetables to avoid the local maximum
 # P = max(total(identicalFit))/total(fit)
-def mutation(fit, temp_timetables, ML, Room):
+def mutation(fit, temp_timetables, ML, Room, room):
     print("-- Mutation --")
     maxDup = maxDuplicationOfFit(fit)
 
@@ -95,7 +98,8 @@ def mutation(fit, temp_timetables, ML, Room):
             newTempTimetable = []
             while newTempTimetable == []:
                 newTempTimetable = make_timetable.make_new_timetable(ML, Room)
-                temp_timetables.append(newTempTimetable)
+                temp_timetables.append(newTempTimetable[0])
+                room.append(newTempTimetable[1])
 
 # return array that consist the fit of each temporary timetable
 # the point of temporary timetable is the higher, the fit of one is the lower
@@ -162,15 +166,16 @@ def the_fit_of_one(temp_timetable):
 # Initialization function
 def initialization(ML, Room, numberOfInit):
     print("-- Initialization --")
-    
-    result = []
 
+    timetable = []
+    room = []
     for i in range(numberOfInit):
         # Create a random room array
         newTempTimetable = make_timetable.make_new_timetable(ML, Room)
-        result.append(newTempTimetable)
+        timetable.append(newTempTimetable[0])
+        room.append(newTempTimetable[1])
 
-    return result
+    return [timetable, room]
 
 # get max duplicate item in list
 def maxDuplicationOfFit(fit):
