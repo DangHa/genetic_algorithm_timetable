@@ -5,7 +5,7 @@
 
 **Input**:
 
-    [[Mã lớp, Giảng viên, Số tiết]]
+    [[Mã lớp, Giảng viên, Số tiết, Lớp sinh viên, Mã Học phân]]
 
     [[Phòng học, Buổi thứ mấy, Số tiết còn lại]
 
@@ -15,7 +15,7 @@
 
 **Output**:
 
-    [[Mã lớp, Giảng viên, Phòng, Buổi, Số tiết]]
+    [[Mã lớp, Giảng viên, Phòng, Buổi, Số tiết, Lớp sinh viên, Mã học phần]]
 
 
 
