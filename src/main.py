@@ -9,7 +9,7 @@ def main(inputMLFile, inputRoomFile, outputFile):
     inputRoom = io_excel_file.read_Room(inputRoomFile)
 
     # run GA
-    NumberOfLoop = 250
+    NumberOfLoop = 200
     
     start = datetime.now()
     result_timetable = generic_algorithm.generic_algorithm(inputML, inputRoom, NumberOfLoop)

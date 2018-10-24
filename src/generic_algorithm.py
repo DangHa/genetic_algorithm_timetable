@@ -4,8 +4,8 @@ import make_timetable
 NumberOfInit = 10   # Initialization
 NumberOfParent = 3  # Crossover
 # Fit score
-FitOfTeacher = 2
-FitOfStudent = 1
+FitOfTeacher = 1
+FitOfStudent = 2
 
 def generic_algorithm (inputML, inputRoom, NumberOfLoop):
     result = []
@@ -21,17 +21,17 @@ def generic_algorithm (inputML, inputRoom, NumberOfLoop):
 
         # --- Fitness ---
         fit = fitness(temp_timetables)
-        print(fit)
 
         # get the best result of this round
         result = temp_timetables[fit.index(min(fit))].copy()
-        # print(result)
-        if min(fit) == 0: #have already had the result
+
+        # ---- RESULT -----
+        if min(fit) == 0 or i == NumberOfLoop-1: #have already had the result
+            print("The number of loop: ", i+1)
             break 
 
         # --- Selection ---
         selection(fit, temp_timetables)
-        print(fit)
 
         # --- Crossover ---
         crossover(fit, temp_timetables, NumberOfParent, room)
@@ -60,6 +60,8 @@ def selection(fit, temp_timetables):
         
         del fit[lessFit]
         del temp_timetables[lessFit]
+
+    print(fit)
 
 # select 2 best fit 
 # create (2) new crossovers by each itself and create 1 new crossover by both
@@ -119,6 +121,7 @@ def fitness(temp_timetables):
         TheFit = the_fit_of_one(temp)
         result.append(TheFit)
 
+    print(result)
     return result
 
 def the_fit_of_one(temp_timetable):
