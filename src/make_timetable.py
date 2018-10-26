@@ -64,26 +64,26 @@ def improve_timetable(selectedTimeTable, fit, room):
                     result[falseML] = newClass
                     return result
 
+    # finding schedule of one have faleML
+    scheduleOfFalseML = teacherSchedule(result, result[falseML][1])
+
     for i in range(len(teacherNames)):
         if result[falseML][1] != teacherNames[i]:
             schedule = teacherSchedule(result, teacherNames[i])
             choose = check(result[falseML], schedule)
 
             if choose == True:
-                # finding schedule of one have faleML
-                scheduleOfFalseML = teacherSchedule(result, result[falseML][1])
-                
                 for j in range(len(result)):
-                        # findding ML can change with falseML and fit with time of teacher
-                        if result[j][1] == schedule[0] and check(result[j], scheduleOfFalseML) == True and result[j][2] == result[falseML][2]:
-                            # check whether the change is suitable with time of student
-                            schedule1 = studentSchedule(result, result[falseML][7])
-                            schedule2 = studentSchedule(result, result[j][7])
-                            if check(result[j], schedule1) and check(result[falseML], schedule2) and result[j][7] != result[falseML][7]:
-                                temp = result[j]
-                                result[j] = temp[:3] + result[falseML][3:6] + temp[6:]
-                                result[falseML] = result[falseML][:3] + temp[3:6]+ result[falseML][6:]
-                                return result
+                    # findding ML can change with falseML and fit with time of teacher
+                    if result[j][1] == schedule[0] and check(result[j], scheduleOfFalseML) == True and result[j][2] == result[falseML][2]:
+                        # check whether the change is suitable with time of student
+                        schedule1 = studentSchedule(result, result[falseML][7])
+                        schedule2 = studentSchedule(result, result[j][7])
+                        if check(result[j], schedule1) and check(result[falseML], schedule2) and result[j][7] != result[falseML][7]:
+                            temp = result[j]
+                            result[j] = temp[:3] + result[falseML][3:6] + temp[6:]
+                            result[falseML] = result[falseML][:3] + temp[3:6]+ result[falseML][6:]
+                            return result
                 
     return result
 
