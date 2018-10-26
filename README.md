@@ -23,25 +23,31 @@
 
     - Decision variables:   A{a,b,c,d,e,f}  - place matrices
                                 a = {Mã lớp}
-                                b = {1,…., Số giảng viên} 
-                                c = {1, … , Số Phòng học} 
+                                b = {giảng viên} 
+                                c = {Phòng học} 
                                 d = {1, … , 12} - Số buổi trong tuần 
                                 e = {1, … , Số tiết của môn học}
-                                f = {1, … , 6} - Tiết bắt đầu
+                                f = {1, … , 6} - Thứ tự tiết bắt đầu
+                                g = {Lớp sinh viên}
+                                h = {Mã HP}
 
     - Conditions:    
 
-        * Same b1:  ∄ (p1{a1,b1,c1,d1,e1,f1} = p2{a2,b1,c2,d2,e2,f2} and p1,p2 ∈ A) 	       (*)
-	                    ∀ (d1 = d2) and 
+        * Same b1:  ∄ (p1{a1,b1,c1,d1,e1,f1,g1,h1} = p2{a2,b1,c2,d2,e2,f2,g2,h2} and p1,p2 ∈ A) 	       (*)
+	                    ∀ (d1 == d2) and 
 			            [(f1 < f2) and (f1 + e1)>f2] or [(f1 > f2) and (f2 + e2)>f1] 
 
-        * Same c1:  ∄ (p1{a1,b1,c1,d1,e1,f1} = p2{a2,b2,c1,d2,e2,f2} and p1,p2 ∈ A)            (**)
-	                    ∀ (d1 = d2) and 
+        * Same c1:  ∄ (p1{a1,b1,c1,d1,e1,f1,g1,h1} = p2{a2,b2,c1,d2,e2,f2,g2,h2} and p1,p2 ∈ A)            (**)
+	                    ∀ (d1 == d2) and 
+			            [(f1 < f2) and (f1 + e1)>f2] or [(f1 > f2) and (f2 + e2)>f1]
+
+        * Same g1:  ∄ (p1{a1,b1,c1,d1,e1,f1,g1,h1} = p2{a2,b2,c2,d2,e2,f2,g1,h2} and p1,p2 ∈ A)            (***)
+	                    ∀ (d1 == d2) and (h1 != h2)
 			            [(f1 < f2) and (f1 + e1)>f2] or [(f1 > f2) and (f2 + e2)>f1]
 
     - Target:
 
-        * ∃ A{a,b,c,d,e,f}   Satisfies  (*) and (**)
+        * ∃ A{a,b,c,d,e,f}   Satisfies  (*), (**) and (***)
 
 **The progress of algorithm**
 
