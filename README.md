@@ -5,9 +5,9 @@
 
 **Input**:
 
-    [[Mã lớp, Giảng viên, Số tiết, Lớp sinh viên, Mã Học phân]]
+    [[Mã lớp, Giảng viên, Số tiết, Lớp sinh viên, Mã Học phân, Loại phòng cần sử dụng]]
 
-    [[Phòng học, Buổi thứ mấy, Số tiết còn lại]
+    [[Phòng học, Buổi thứ mấy, Số tiết còn lại, Loại phòng]
 
 *Each week is divided into 12 blocks (from monday to friday)*
 
