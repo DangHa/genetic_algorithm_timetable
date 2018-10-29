@@ -6,7 +6,7 @@ def main(inputMLFile, inputRoomFile, outputFile):
 
     # get the data consisting of Malop and Room
     inputML = io_excel_file.read_ML(inputMLFile)
-    inputRoom = io_excel_file.read_Room(inputRoomFile)
+    inputRoom = io_excel_file.readRoom(inputRoomFile)
 
     # run GA
     NumberOfLoop = 200
@@ -20,6 +20,6 @@ def main(inputMLFile, inputRoomFile, outputFile):
 
 if __name__ == "__main__":
     
-    main("file/inputML.csv", "file/inputRoom.txt", "file/output.csv")
+    main("file/inputML.csv", "file/inputRoom.csv", "file/output.csv")
     
 

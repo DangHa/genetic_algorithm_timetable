@@ -14,11 +14,10 @@ def make_new_timetable(ML, Room):
     result = []
     tempRoom = [x[:] for x in Room]
     random.shuffle(tempRoom)
-
     for i in range(len(ML)):
         for j in range(len(tempRoom)):
-            if tempRoom[j][2] >= ML[i][2]:
-                MLHaveRoom = ML[i][:3] + tempRoom[j][:2] + [7-tempRoom[j][2], True, ML[i][3], True, ML[i][4]]
+            if tempRoom[j][2] >= ML[i][2] and tempRoom[j][3] == ML[i][5]:
+                MLHaveRoom = ML[i][:3] + tempRoom[j][:2] + [7-tempRoom[j][2], True, ML[i][3], True, ML[i][4], ML[i][5]]
                 result.append(MLHaveRoom)
                 tempRoom[j][2] -= ML[i][2]
                 break
@@ -58,7 +57,7 @@ def improve_timetable(selectedTimeTable, fit, room):
         teacher = teacherSchedule(result, result[falseML][1])
         student = studentSchedule(result, result[falseML][7])
         for i in range(len(room)):
-            if room[i][2] >= result[falseML][2] and room[i][1] != result[falseML][4]:
+            if room[i][2] >= result[falseML][2] and room[i][1] != result[falseML][4] and room[i][3] == result[falseML][10]:
                 newClass = result[falseML][:3] + room[i][:2] + [7-room[i][2]] + result[falseML][6:]
                 if check(newClass, teacher) and check(newClass, student):
                     result[falseML] = newClass
@@ -75,7 +74,7 @@ def improve_timetable(selectedTimeTable, fit, room):
             if choose == True:
                 for j in range(len(result)):
                     # findding ML can change with falseML and fit with time of teacher
-                    if result[j][1] == schedule[0] and check(result[j], scheduleOfFalseML) == True and result[j][2] == result[falseML][2]:
+                    if result[j][1] == schedule[0] and check(result[j], scheduleOfFalseML) == True and result[j][2] == result[falseML][2] and result[j][10] == result[falseML][10]:
                         # check whether the change is suitable with time of student
                         schedule1 = studentSchedule(result, result[falseML][7])
                         schedule2 = studentSchedule(result, result[j][7])

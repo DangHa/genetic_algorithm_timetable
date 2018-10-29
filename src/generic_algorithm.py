@@ -43,7 +43,6 @@ def generic_algorithm (inputML, inputRoom, NumberOfLoop):
             if bestTable[i][6] == False:
                 mutation(fit, temp_timetables, inputML, inputRoom, room)
                 break
-        
 
     return result
 
@@ -71,6 +70,9 @@ def crossover(fit, temp_timetables, NumberOfParent, room):
 
     # create N new crossovers by each itself
     for i in range(0, NumberOfParent):
+        if min(tempFit) == math.inf:
+            break
+
         maxElem = tempFit.index(min(tempFit))
         tempFit[maxElem] = math.inf
 
