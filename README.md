@@ -15,7 +15,7 @@
 
 **Output**:
 
-    [[Mã lớp, Giảng viên, Phòng, Buổi, Số tiết, Lớp sinh viên, Mã học phần]]
+    [[Mã lớp, Giảng viên, Phòng, Buổi, Số tiết, Lớp sinh viên, Mã học phần, Loai phong]]
 
 
 
