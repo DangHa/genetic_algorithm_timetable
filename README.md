@@ -5,43 +5,47 @@
 
 **Input**:
 
-    [[Mã lớp, Giảng viên, Số tiết, Lớp sinh viên, Mã Học phân, Loại phòng cần sử dụng]]
+    [[Course ID, Teacher, The number of class hour, Student class, Course name, The room type need to use]]
 
-    [[Phòng học, Buổi thứ mấy, Số tiết còn lại, Loại phòng]
+    [[Room, The room type]
 
 *Each week is divided into 12 blocks (from monday to friday)*
 
-*Each block is divided into 6 periods (both in the morning and afternoon*
+*Each block is divided into 6 class hour (both in the morning and afternoon*
 
 **Output**:
 
-    [[Mã lớp, Giảng viên, Phòng, Buổi, Số tiết, Lớp sinh viên, Mã học phần]]
+    [[Course ID, Teacher, Room, Block position in the week, The number of class hour, Student class, Course name, room type]]
 
 
 
 **Math model**
 
-    - Decision variables:   A{a,b,c,d,e,f}  - place matrices
-                                a = {Mã lớp}
-                                b = {giảng viên} 
-                                c = {Phòng học} 
-                                d = {1, … , 12} - Số buổi trong tuần 
-                                e = {1, … , Số tiết của môn học}
-                                f = {1, … , 6} - Thứ tự tiết bắt đầu
-                                g = {Lớp sinh viên}
-                                h = {Mã HP}
+    - Decision variables:   A{a,b,c,d,e,f,g,h,i}  - place matrices
+                                a = {Course ID}
+                                b = {teacher} 
+                                c = {Room} 
+                                d = {1, … , 12} - The block position in the week 
+                                e = {1, … , The number of class hour} 
+                                f = {1, … , 6} - The beginning class hour
+                                g = {Student class}
+                                h = {Course Name}
+                                i = {Room Type}
 
     - Conditions:    
 
-        * Same b1:  ∄ (p1{a1,b1,c1,d1,e1,f1,g1,h1} = p2{a2,b1,c2,d2,e2,f2,g2,h2} and p1,p2 ∈ A) 	       (*)
+        * Same teacher:       
+                ∄ (p1{a1,b1,c1,d1,e1,f1,g1,h1,i1} = p2{a2,b1,c2,d2,e2,f2,g2,h2,i2} and p1,p2 ∈ A) 	       (*)
 	                    ∀ (d1 == d2) and 
 			            [(f1 < f2) and (f1 + e1)>f2] or [(f1 > f2) and (f2 + e2)>f1] 
 
-        * Same c1:  ∄ (p1{a1,b1,c1,d1,e1,f1,g1,h1} = p2{a2,b2,c1,d2,e2,f2,g2,h2} and p1,p2 ∈ A)            (**)
+        * Same room:          
+                ∄ (p1{a1,b1,c1,d1,e1,f1,g1,h1,i1} = p2{a2,b2,c1,d2,e2,f2,g2,h2,i2} and p1,p2 ∈ A)            (**)
 	                    ∀ (d1 == d2) and 
 			            [(f1 < f2) and (f1 + e1)>f2] or [(f1 > f2) and (f2 + e2)>f1]
 
-        * Same g1:  ∄ (p1{a1,b1,c1,d1,e1,f1,g1,h1} = p2{a2,b2,c2,d2,e2,f2,g1,h2} and p1,p2 ∈ A)            (***)
+        * Same student class: 
+                ∄ (p1{a1,b1,c1,d1,e1,f1,g1,h1,i1} = p2{a2,b2,c2,d2,e2,f2,g1,h2,i2} and p1,p2 ∈ A)            (***)
 	                    ∀ (d1 == d2) and (h1 != h2)
 			            [(f1 < f2) and (f1 + e1)>f2] or [(f1 > f2) and (f2 + e2)>f1]
 
@@ -51,7 +55,7 @@
 
 **The progress of algorithm**
 
-![](https://gitlab.com/ha_algorithm/timetable/uploads/11607228b5b0e6d5803870f61c2d8699/image.png)
+![](https://gitlab.com/ha_algorithm/timetable/uploads/fa77d61efad4fc50588542cb1323f4bd/image.png)
 
 
 ## How to run 
