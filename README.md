@@ -17,8 +17,6 @@
 
     [[Course ID, Teacher, Room, Block position in the week, The number of class hour, Student class, Course name, room type]]
 
-
-
 **Math model**
 
     - Decision variables:   A{a,b,c,d,e,f,g,h,i}  - place matrices
