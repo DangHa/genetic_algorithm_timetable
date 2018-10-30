@@ -55,7 +55,7 @@
 
     - Target:
 
-        * ∃ A{a,b,c,d,e,f}   Satisfies  (*), (**) and (***)
+        * ∃ A{a,b,c,d,e,f}   Satisfies  (*), (**), (***) and (****)
 
 **The progress of algorithm**
 
