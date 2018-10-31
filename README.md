@@ -15,11 +15,11 @@
 
 **Output**:
 
-    [[Course ID, Teacher, Room, Block position in the week, The number of class hour, Student class, Course name, room type]]
+    [[Course ID, Teacher, Room, Block position in the week, The number of class hour, Student class, Course name, Room type]]
 
-**Math model**
+**Math clause**
 
-    - Decision variables:   A{a,b,c,d,e,f,g,h,i}  - place matrices
+    - Decision variables:   A{a,b,c,d,e,f,g,h,i} 
                                 a = {Course ID}
                                 b = {teacher} 
                                 c = {Room} 
