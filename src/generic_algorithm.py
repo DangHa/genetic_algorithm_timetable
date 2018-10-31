@@ -1,3 +1,6 @@
+## Author: Ha
+## Module: genetic_algorithms
+
 import random, math
 import make_timetable
 

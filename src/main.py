@@ -1,8 +1,11 @@
+## Author: Ha
+## Module: timetable
+
 # import other files
 import io_excel_file, generic_algorithm
 from datetime import datetime
 
-def main(inputMLFile, inputRoomFile, outputFile):
+def timetable(inputMLFile, inputRoomFile, outputFile):
 
     # get the data consisting of Malop and Room
     inputML = io_excel_file.read_ML(inputMLFile)
@@ -20,6 +23,6 @@ def main(inputMLFile, inputRoomFile, outputFile):
 
 if __name__ == "__main__":
     
-    main("file/inputML.csv", "file/inputRoom.csv", "file/output.csv")
+    timetable("file/inputML.csv", "file/inputRoom.csv", "file/output.csv")
     
 
