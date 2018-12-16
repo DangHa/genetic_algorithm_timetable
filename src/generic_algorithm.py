@@ -26,10 +26,10 @@ def generic_algorithm (inputML, inputRoom, NumberOfLoop):
         fit = fitness(temp_timetables)
         print(fit)
 
+        # ---- GET RESULT -----
         # get the best result of this round
         result = temp_timetables[fit.index(min(fit))].copy()
-
-        # ---- GET RESULT -----
+        
         if min(fit) == 0 or i == NumberOfLoop-1: #have already had the result
             print("The best fit score: ", min(fit))
             print("The number of loop: ", i+1)

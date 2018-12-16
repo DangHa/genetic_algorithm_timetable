@@ -1,5 +1,10 @@
 ## Author: Ha
 ## Module: make_and_improve_timetable
+
+# De tang hieu qua toi da day xep tat ca ML co nhieu tiet vao truoc
+# Output khong co trung phong hop va thoi gian ma chi con trung thoi gian cua giao vien
+import random
+
 ## Input:
 ##     [[Mã lớp, Giảng viên, Số tiết, Lop Sinh Vien]]
 ##     [[Phòng học, Buổi, Số tiết còn lại]]
@@ -7,11 +12,6 @@
 ##     [[Mã lớp, Giảng viên, Số tiết, Phòng, Buổi, Tiết bắt đầu, TheFitOfTeacher,
 ##                                                   StudentClass,TheFitOfStudent]]
 ##     [] - if cant create
-
-# De tang hieu qua toi da day xep tat ca ML co nhieu tiet vao truoc
-# Output khong co trung phong hop va thoi gian ma chi con trung thoi gian cua giao vien
-import random
-
 def make_new_timetable(ML, Room):
     result = []
     tempRoom = [x[:] for x in Room]
