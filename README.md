@@ -3,6 +3,9 @@
 
 ## Description
 
+Improving the GA by applying the eugenics to optimize the running time and detect the local maximum in a non-convex optimization problem
+
+
 **Input**:
 
     [[Course ID, Teacher, The number of hour of class, Student class, Course name, The room type need to use]]
