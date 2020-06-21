@@ -5,17 +5,17 @@
 
 **Input**:
 
-    [[Course ID, Teacher, The number of class hour, Student class, Course name, The room type need to use]]
+    [[Course ID, Teacher, The number of hour of class, Student class, Course name, The room type need to use]]
 
     [[Room, The room type]
 
 *Each week is divided into 12 blocks (from monday to friday)*
 
-*Each block is divided into 6 class hour (both in the morning and afternoon*
+*Each block is divided into 6 class period (both in the morning and afternoon)*
 
 **Output**:
 
-    [[Course ID, Teacher, Room, Block position in the week, The number of class hour, Student class, Course name, Room type]]
+    [[Course ID, Teacher, Room, Block position in the week, The beginning point of class, The number of hour of class, Student class, Course name, Room type]]
 
 **Math clause**
 
@@ -24,8 +24,8 @@
                                 b = {teacher} 
                                 c = {Room} 
                                 d = {1, … , 12} - The block position in the week 
-                                e = {1, … , The number of class hour} 
-                                f = {1, … , 6} - The beginning class hour
+                                e = {The number of hour of class} 
+                                f = {1, … , 6} - The beginning point of class (each block has 6 beginning points to separate 6 periods)
                                 g = {Student class}
                                 h = {Course Name}
                                 i = {Room Type}
