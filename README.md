@@ -67,6 +67,6 @@ Improving the GA by applying the eugenics to optimize the running time and escap
 
 ![](https://gitlab.com/ha_algorithm/timetable/uploads/fa77d61efad4fc50588542cb1323f4bd/image.png)
 
-[If you need more tutorial](https://danghaku.blogspot.com/2018/11/making-timetable-with-genetic-algorithm.html)
+
 ## How to run 
     python3 src/main.py
