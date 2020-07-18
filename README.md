@@ -3,7 +3,7 @@
 
 ## Description
 
-Improving the GA by applying the eugenics to optimize the running time and escape from local maxima in a non-convex optimization problem
+Improving the GA by applying the *eugenics* to optimize the running time and escape from local maxima in a non-convex optimization problem
 
 
 **Input**:
@@ -16,9 +16,11 @@ Improving the GA by applying the eugenics to optimize the running time and escap
 
 *Each block is divided into 6 class period (both in the morning and afternoon)*
 
+
 **Output**:
 
     [[Course ID, Teacher, Room, Block position in the week, The beginning point of class, The number of hour of class, Student class, Course name, Room type]]
+
 
 **Math clause**
 
@@ -63,9 +65,10 @@ Improving the GA by applying the eugenics to optimize the running time and escap
 
         * ∃ A{a,b,c,d,e,f}   Satisfies  (*), (**), (***) and (****)
 
+
 **The progress of algorithm**
 
-![](https://gitlab.com/ha_algorithm/timetable/uploads/fc0e077490f454131f7671cdc099adfa/Untitled_Diagram.png)
+![GA_process](https://gitlab.com/ha_algorithm/timetable/uploads/156d8ab0848e812ddec84bd934fbfe1a/GA_pr.png)
 
 
 ## How to run 
