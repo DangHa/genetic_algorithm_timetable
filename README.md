@@ -65,7 +65,7 @@ Improving the GA by applying the eugenics to optimize the running time and escap
 
 **The progress of algorithm**
 
-![](https://gitlab.com/ha_algorithm/timetable/uploads/fa77d61efad4fc50588542cb1323f4bd/image.png)
+![](https://gitlab.com/ha_algorithm/timetable/uploads/fc0e077490f454131f7671cdc099adfa/Untitled_Diagram.png)
 
 
 ## How to run 
