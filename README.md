@@ -37,27 +37,23 @@ Improving the GA by applying the **eugenics** to optimize the running time and e
 
     - Conditions:    
 
-        * Same teacher:       
-                ∄ (p1{a1,b1,c1,d1,e1,f1,g1,h1,i1} = p2{a2,b1,c2,d2,e2,f2,g2,h2,i2} and p1,p2 ∈ A) 	
-                    (*)
+        * Same teacher:        (*)      
+                ∄ (p1{a1,b1,c1,d1,e1,f1,g1,h1,i1} = p2{a2,b1,c2,d2,e2,f2,g2,h2,i2} and p1,p2 ∈ A) 
 	                    ∀ (d1 == d2) and 
 			            [(f1 < f2) and (f1 + e1)>f2] or [(f1 > f2) and (f2 + e2)>f1] 
 
-        * Same room:          
+        * Same room:           (**)        
                 ∄ (p1{a1,b1,c1,d1,e1,f1,g1,h1,i1} = p2{a2,b2,c1,d2,e2,f2,g2,h2,i2} and p1,p2 ∈ A)
-                    (**)
 	                    ∀ (d1 == d2) and 
 			            [(f1 < f2) and (f1 + e1)>f2] or [(f1 > f2) and (f2 + e2)>f1]
 
-        * Same student class: 
+        * Same student class:  (***)
                 ∄ (p1{a1,b1,c1,d1,e1,f1,g1,h1,i1} = p2{a2,b2,c2,d2,e2,f2,g1,h2,i2} and p1,p2 ∈ A)
-                    (***)
 	                    ∀ (d1 == d2) and (h1 != h2)
 			            [(f1 < f2) and (f1 + e1)>f2] or [(f1 > f2) and (f2 + e2)>f1]
 
-        * Same room type:
+        * Same room type:      (****)
                 ∄ p{a,b,c,d,e,f,g,h,i2} and p ∈ A
-                    (****)
                         and c have i1
                         and i1 != i2
 
