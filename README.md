@@ -5,6 +5,10 @@
 
 Improving the GA by applying the **eugenics** to optimize the running time and escape from local maxima in a non-convex optimization problem
 
+**The progress of algorithm**
+
+![GA_process](https://gitlab.com/ha_algorithm/timetable/uploads/16402b0c865b0356b3baa0fc2d3331e0/GA_process.png)
+
 
 **Input**:
 
@@ -60,11 +64,6 @@ Improving the GA by applying the **eugenics** to optimize the running time and e
     - Target:
 
         * ∃ A{a,b,c,d,e,f}   Satisfies  (*), (**), (***) and (****)
-
-
-**The progress of algorithm**
-
-![GA_process](https://gitlab.com/ha_algorithm/timetable/uploads/16402b0c865b0356b3baa0fc2d3331e0/GA_process.png)
 
 
 ## How to run 
