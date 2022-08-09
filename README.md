@@ -7,7 +7,7 @@ Improving the GA by applying the **eugenics** to optimize the running time and e
 
 **The progress of algorithm**
 
-![GA_process](https://gitlab.com/ha_algorithm/timetable/uploads/16402b0c865b0356b3baa0fc2d3331e0/GA_process.png)
+![GA_process](https://user-images.githubusercontent.com/20589233/183609079-98006dd6-83e8-422c-a3a5-e48b72d7833e.png)
 
 
 **Input**:
