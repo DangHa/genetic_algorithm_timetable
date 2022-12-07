@@ -3,7 +3,7 @@
 
 ## Description
 
-Improving the GA by applying the **eugenics** to optimize the running time and escape from local maxima in a non-convex optimization problem
+Improving the GA by applying the eugenics to optimize the running time and escape from local maxima in a non-convex optimization problem
 
 **The progress of algorithm**
 
